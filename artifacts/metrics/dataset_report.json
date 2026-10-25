@@ -1,0 +1,88 @@
+{
+  "total_images": 1550,
+  "class_counts": {
+    "known/Apple": 250,
+    "known/Corn": 250,
+    "known/Grape": 250,
+    "known/Peach": 250,
+    "known/Tomato": 250,
+    "unknown/Bell pepper": 150,
+    "unknown/Potato": 150
+  },
+  "known_imbalance_ratio_max_over_min": 1.0,
+  "width": {
+    "count": 1550.0,
+    "mean": 256.0,
+    "std": 0.0,
+    "min": 256.0,
+    "25%": 256.0,
+    "50%": 256.0,
+    "75%": 256.0,
+    "max": 256.0
+  },
+  "height": {
+    "count": 1550.0,
+    "mean": 256.0,
+    "std": 0.0,
+    "min": 256.0,
+    "25%": 256.0,
+    "50%": 256.0,
+    "75%": 256.0,
+    "max": 256.0
+  },
+  "unique_sizes": {
+    "256x256": 1550
+  },
+  "color_modes": {
+    "RGB": 1550
+  },
+  "train_rgb_mean": [
+    0.47749999165534973,
+    0.531499981880188,
+    0.46230000257492065
+  ],
+  "train_rgb_std": [
+    0.1809999942779541,
+    0.16439999639987946,
+    0.19009999930858612
+  ],
+  "near_duplicates_ahash8x8": {
+    "aHash_dist<=0": {
+      "pairs": 5,
+      "same_species": 5,
+      "same_species_cross_split": 3,
+      "cross_species": 0
+    },
+    "aHash_dist<=1": {
+      "pairs": 36,
+      "same_species": 26,
+      "same_species_cross_split": 14,
+      "cross_species": 10
+    },
+    "aHash_dist<=2": {
+      "pairs": 190,
+      "same_species": 130,
+      "same_species_cross_split": 70,
+      "cross_species": 60
+    }
+  },
+  "near_duplicate_note": "8x8 average hash is coarse; flagged same-species cross-split pairs were visually inspected and are different leaves with similar shape/background (false positives). Multiple photos of one physical leaf cannot be ruled out: PlantVillage has no leaf IDs.",
+  "corrupt_files": 0,
+  "exact_duplicates_removed": 13,
+  "class_to_label": {
+    "Apple": 0,
+    "Corn": 1,
+    "Grape": 2,
+    "Peach": 3,
+    "Tomato": 4
+  },
+  "source_folder_map": {
+    "Apple": "Apple___healthy",
+    "Corn": "Corn_(maize)___healthy",
+    "Grape": "Grape___healthy",
+    "Peach": "Peach___healthy",
+    "Tomato": "Tomato___healthy",
+    "Potato": "Potato___healthy",
+    "Bell pepper": "Pepper,_bell___healthy"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "corrupt": [],
+  "exact_duplicates_removed": [
+    [
+      "data/raw/Apple___healthy/13298d36-4425-437d-ae8e-c7d70e200084___RS_HL 6271.JPG",
+      "data/raw/Apple___healthy/11beda66-01e9-4bfd-be37-c0f8646d1478___RS_HL 6271.JPG"
+    ],
+    [
+      "data/raw/Apple___healthy/3673d121-b5de-481c-b057-d4ee5b4959b1___RS_HL 6269.JPG",
+      "data/raw/Apple___healthy/1ab5e019-e5f0-4d8e-a252-94cb0aab8b0a___RS_HL 6269.JPG"
+    ],
+    [
+      "data/raw/Apple___healthy/9b75de13-d4b0-4b3f-988c-3e9926eef957___RS_HL 6273.JPG",
+      "data/raw/Apple___healthy/5192db55-4aa7-421c-92d4-c2dac79e7379___RS_HL 6273.JPG"
+    ],
+    [
+      "data/raw/Apple___healthy/acb21cc2-8d65-4880-a7bb-dcc1eab1564b___RS_HL 6272.JPG",
+      "data/raw/Apple___healthy/3d075f90-7002-4c45-abc0-4f35ee49aa79___RS_HL 6272.JPG"
+    ],
+    [
+      "data/raw/Apple___healthy/c21cf428-bfc3-4710-b5d2-69d1c0e94748___RS_HL 6268.JPG",
+      "data/raw/Apple___healthy/14896dc0-688d-456f-b5ec-a037695b0193___RS_HL 6268.JPG"
+    ],
+    [
+      "data/raw/Apple___healthy/dc18b924-f172-445d-8fed-61445d437aaa___RS_HL 6270.JPG",
+      "data/raw/Apple___healthy/ced4e27a-5eff-4190-a33a-cdc3d84c811e___RS_HL 6270.JPG"
+    ],
+    [
+      "data/raw/Apple___healthy/fdbfa6f7-f887-442d-8df1-1f0cf839fc4d___RS_HL 6274.JPG",
+      "data/raw/Apple___healthy/f2cda910-55c7-46d7-b1a2-9a3bb9792148___RS_HL 6274.JPG"
+    ],
+    [
+      "data/raw/Tomato___healthy/34c81c57-e1fa-49dd-a49d-34fe8b2385fe___GH_HL Leaf 466.1.JPG",
+      "data/raw/Tomato___healthy/068e324c-faf6-40d6-8f83-578907f1cac5___GH_HL Leaf 466.1.JPG"
+    ],
+    [
+      "data/raw/Tomato___healthy/505465db-407b-4e0a-8110-7479dad5261c___GH_HL Leaf 389.JPG",
+      "data/raw/Tomato___healthy/37203047-d8ba-43f7-b31e-d496c41c569c___GH_HL Leaf 389.JPG"
+    ],
+    [
+      "data/raw/Tomato___healthy/a5de43e7-fc2f-4a14-a8e6-c0f2f94c84f1___GH_HL Leaf 434.JPG",
+      "data/raw/Tomato___healthy/488feb1c-4b9f-44e7-8aa6-4103a9601f5f___GH_HL Leaf 434.JPG"
+    ],
+    [
+      "data/raw/Tomato___healthy/cfd491d6-4af5-4728-8f0e-0d330a07174a___GH_HL Leaf 482.2.JPG",
+      "data/raw/Tomato___healthy/1af0bfe1-4bcf-4b8b-be66-5d0953eb647e___GH_HL Leaf 482.2.JPG"
+    ],
+    [
+      "data/raw/Tomato___healthy/d2ce7896-6fa4-45e6-96c5-d162da0e3e1c___GH_HL Leaf 220.JPG",
+      "data/raw/Tomato___healthy/9662364c-aaba-45e3-b907-10792d60578c___GH_HL Leaf 220.JPG"
+    ],
+    [
+      "data/raw/Tomato___healthy/e786ac89-29fe-47e3-b49e-b9a9ee7edd9d___GH_HL Leaf 342.1.JPG",
+      "data/raw/Tomato___healthy/37aad83b-7ff8-4b35-b3ed-fb8e0f54910b___GH_HL Leaf 342.1.JPG"
+    ]
+  ],
+  "raw_counts": {
+    "Apple": 1645,
+    "Corn": 1162,
+    "Grape": 423,
+    "Peach": 360,
+    "Tomato": 1591,
+    "Potato": 152,
+    "Bell pepper": 1478
+  },
+  "class_to_label": {
+    "Apple": 0,
+    "Corn": 1,
+    "Grape": 2,
+    "Peach": 3,
+    "Tomato": 4
+  },
+  "source_folder_map": {
+    "Apple": "Apple___healthy",
+    "Corn": "Corn_(maize)___healthy",
+    "Grape": "Grape___healthy",
+    "Peach": "Peach___healthy",
+    "Tomato": "Tomato___healthy",
+    "Potato": "Potato___healthy",
+    "Bell pepper": "Pepper,_bell___healthy"
+  },
+  "counts": [
+    {
+      "role": "known",
+      "species": "Apple",
+      "split": "test",
+      "n": 38
+    },
+    {
+      "role": "known",
+      "species": "Apple",
+      "split": "train",
+      "n": 175
+    },
+    {
+      "role": "known",
+      "species": "Apple",
+      "split": "val",
+      "n": 37
+    },
+    {
+      "role": "known",
+      "species": "Corn",
+      "split": "test",
+      "n": 37
+    },
+    {
+      "role": "known",
+      "species": "Corn",
+      "split": "train",
+      "n": 175
+    },
+    {
+      "role": "known",
+      "species": "Corn",
+      "split": "val",
+      "n": 38
+    },
+    {
+      "role": "known",
+      "species": "Grape",
+      "split": "test",
+      "n": 38
+    },
+    {
+      "role": "known",
+      "species": "Grape",
+      "split": "train",
+      "n": 175
+    },
+    {
+      "role": "known",
+      "species": "Grape",
+      "split": "val",
+      "n": 37
+    },
+    {
+      "role": "known",
+      "species": "Peach",
+      "split": "test",
+      "n": 38
+    },
+    {
+      "role": "known",
+      "species": "Peach",
+      "split": "train",
+      "n": 175
+    },
+    {
+      "role": "known",
+      "species": "Peach",
+      "split": "val",
+      "n": 37
+    },
+    {
+      "role": "known",
+      "species": "Tomato",
+      "split": "test",
+      "n": 37
+    },
+    {
+      "role": "known",
+      "species": "Tomato",
+      "split": "train",
+      "n": 175
+    },
+    {
+      "role": "known",
+      "species": "Tomato",
+      "split": "val",
+      "n": 38
+    },
+    {
+      "role": "unknown",
+      "species": "Bell pepper",
+      "split": "unknown_test",
+      "n": 150
+    },
+    {
+      "role": "unknown",
+      "species": "Potato",
+      "split": "unknown_test",
+      "n": 150
+    }
+  ]
+}
