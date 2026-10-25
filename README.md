@@ -60,8 +60,7 @@ $PY -m src.stress_test        # optional synthetic brightness/blur test
 $PY -m src.bootstrap_ci       # optional 95% bootstrap CIs
 $PY -m pytest -q              # 13 tests
 ```
-There is no separate "quick run": the whole experiment is small enough that the quick and full runs are identical. Re-running
-reproduces the HOG+SVM numbers exactly; MobileNet on MPS is seeded but GPU kernels may cause tiny numerical differences.
+There is no separate "quick run": the whole experiment is small enough that the quick and full runs are identical. A full re-run on the same machine (Apple M4, MPS) reproduced all predictions, metrics and figures identically; only wall-clock timings differ. Other hardware (CUDA/CPU) was not tested and may differ slightly.
 
 ## Inference
 
