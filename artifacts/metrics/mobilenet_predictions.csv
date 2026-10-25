@@ -1,0 +1,489 @@
+path,true,role,pred,conf,accepted
+data/raw/Apple___healthy/09074cd1-a3f0-4d64-97d9-16919451bd58___RS_HL 6258.JPG,Apple,known,Apple,0.9999947547912598,True
+data/raw/Apple___healthy/0a285c8b-1c31-48d4-89f2-af8b9edc36f6___RS_HL 5759.JPG,Apple,known,Apple,0.9999977350234985,True
+data/raw/Apple___healthy/0c30f1f2-9eed-4861-bf66-eceae1b0b625___RS_HL 7430.JPG,Apple,known,Apple,0.9999997615814209,True
+data/raw/Apple___healthy/0c83f4eb-4949-47c8-bf63-312d16e64913___RS_HL 7619.JPG,Apple,known,Apple,0.9988945126533508,True
+data/raw/Apple___healthy/139cb003-2cc1-43ce-bbdf-29767f9e2ce0___RS_HL 7386.JPG,Apple,known,Apple,0.9999992847442627,True
+data/raw/Apple___healthy/2301f2bb-7972-4fb8-8be6-246ce55ca3b6___RS_HL 6100.JPG,Apple,known,Apple,0.9999973773956299,True
+data/raw/Apple___healthy/2e403d36-e4f2-4323-a78c-5a7330f1083c___RS_HL 7857.JPG,Apple,known,Apple,0.999903678894043,True
+data/raw/Apple___healthy/2fae96ef-fe0f-4004-bbb7-259c62cde5c3___RS_HL 7953.JPG,Apple,known,Apple,0.9999998807907104,True
+data/raw/Apple___healthy/3100088b-5df1-43b2-a1d9-8ff1d414b67b___RS_HL 5834.JPG,Apple,known,Apple,0.9999954700469971,True
+data/raw/Apple___healthy/36980863-22cb-4e05-a1f6-53039a89993a___RS_HL 5934.JPG,Apple,known,Apple,0.9998750686645508,True
+data/raw/Apple___healthy/39be15a0-4c7f-4a8e-9938-829bec85fd1c___RS_HL 6209.JPG,Apple,known,Apple,0.9999966621398926,True
+data/raw/Apple___healthy/3bd24003-1163-40f4-8b1f-21aad7fc4b4b___RS_HL 5912.JPG,Apple,known,Apple,0.999915361404419,True
+data/raw/Apple___healthy/44acd453-48a7-48db-997a-34b00a4d437a___RS_HL 7892.JPG,Apple,known,Apple,0.9999998807907104,True
+data/raw/Apple___healthy/45584571-03d6-40eb-909e-00c752a4d66e___RS_HL 5803.JPG,Apple,known,Apple,0.9303804636001587,False
+data/raw/Apple___healthy/4c50a62b-3af4-43f9-a31d-794abd545413___RS_HL 7739.JPG,Apple,known,Apple,0.9999719858169556,True
+data/raw/Apple___healthy/4c6671cb-b873-4e04-9dd8-fafb839a3d28___RS_HL 7797.JPG,Apple,known,Apple,0.9996216297149658,True
+data/raw/Apple___healthy/4c7e1a5a-fc48-43a8-959d-c7c8ad6462b9___RS_HL 7561.JPG,Apple,known,Apple,0.9998059868812561,True
+data/raw/Apple___healthy/4f7c8fa5-f8cf-4b64-aaff-14d4a1c2cb27___RS_HL 7421.JPG,Apple,known,Apple,0.9999960660934448,True
+data/raw/Apple___healthy/56ca7e9b-3db1-4130-ab97-8627eb1a3850___RS_HL 7593.JPG,Apple,known,Apple,0.9999450445175171,True
+data/raw/Apple___healthy/5f1b959d-c157-455f-baea-258293cad073___RS_HL 6114.JPG,Apple,known,Apple,1.0,True
+data/raw/Apple___healthy/62047680-5efb-4779-99e0-d2bfe2ddba8a___RS_HL 7791.JPG,Apple,known,Apple,0.9999977350234985,True
+data/raw/Apple___healthy/7a13d83d-7511-41c5-9fd5-9fd18d3cf3b1___RS_HL 5685.JPG,Apple,known,Apple,0.9998983144760132,True
+data/raw/Apple___healthy/950b3f81-0b23-4fed-a47c-e1291f430e8f___RS_HL 7418.JPG,Apple,known,Apple,0.9999980926513672,True
+data/raw/Apple___healthy/9d872301-fed3-4fc4-bf58-9963a5248105___RS_HL 5678.JPG,Apple,known,Apple,1.0,True
+data/raw/Apple___healthy/a0167593-6219-479d-9e28-161dfea5b19a___RS_HL 5790.JPG,Apple,known,Apple,0.9965214729309082,True
+data/raw/Apple___healthy/a4c3d6d2-cc69-4d8e-acc9-0e648df959ef___RS_HL 7806.JPG,Apple,known,Apple,0.9999716281890869,True
+data/raw/Apple___healthy/ad7674f8-ff0c-43f8-9bb7-1c347ba197fe___RS_HL 7812.JPG,Apple,known,Apple,0.999998927116394,True
+data/raw/Apple___healthy/b0233269-e0b7-4314-8aa1-6b7ecfd12033___RS_HL 8049.JPG,Apple,known,Apple,0.9999991655349731,True
+data/raw/Apple___healthy/b55fbd6e-955c-4016-acff-4829df8a2f0f___RS_HL 7399.JPG,Apple,known,Apple,0.9806851148605347,False
+data/raw/Apple___healthy/ba78848a-d307-4ba9-bb8e-34de742de684___RS_HL 7266.JPG,Apple,known,Apple,0.9915834069252014,True
+data/raw/Apple___healthy/bd44da3a-be59-458e-a81b-cf8f9d38724d___RS_HL 7336.JPG,Apple,known,Apple,0.9999492168426514,True
+data/raw/Apple___healthy/c936479f-544d-482a-a3d2-19b8bf69bf8d___RS_HL 7898.JPG,Apple,known,Apple,0.9999268054962158,True
+data/raw/Apple___healthy/c9ecb848-37bb-4076-9f57-c1bbe22dbec2___RS_HL 7288.JPG,Apple,known,Apple,0.9993282556533813,True
+data/raw/Apple___healthy/cb2820ba-baab-455a-8830-df6f53bbb580___RS_HL 6097.JPG,Apple,known,Apple,1.0,True
+data/raw/Apple___healthy/e1e675c7-7ec2-44d9-b5c6-9b71151e1447___RS_HL 7466.JPG,Apple,known,Apple,0.9999212026596069,True
+data/raw/Apple___healthy/e7f0bd90-56b8-4d09-a406-9c4786eaca3a___RS_HL 7738.JPG,Apple,known,Apple,1.0,True
+data/raw/Apple___healthy/f33146e2-5f03-4bb7-ace6-0ebdf535d6e7___RS_HL 6214.JPG,Apple,known,Apple,0.9999902248382568,True
+data/raw/Apple___healthy/fca87ead-171e-4dd8-9b2d-669f69158dc5___RS_HL 6113.JPG,Apple,known,Apple,1.0,True
+data/raw/Corn_(maize)___healthy/0292a37f-07d0-401f-83d8-cde4c98547d8___R.S_HL 0630 copy 2.jpg,Corn,known,Corn,0.9986829161643982,True
+data/raw/Corn_(maize)___healthy/09282d61-1bed-4af6-8813-88328f2bd312___R.S_HL 8016 copy.jpg,Corn,known,Corn,0.9999997615814209,True
+data/raw/Corn_(maize)___healthy/0fdec9d5-d84a-45aa-94c5-9b66f192dd8c___R.S_HL 8019 copy 2.jpg,Corn,known,Corn,0.9999876022338867,True
+data/raw/Corn_(maize)___healthy/2251b665-207d-4500-a396-bc9bb097c34b___R.S_HL 8073 copy.jpg,Corn,known,Corn,0.9999969005584717,True
+data/raw/Corn_(maize)___healthy/2900c66f-948b-48df-bfed-76f08a6af9ce___R.S_HL 7938 copy 2.jpg,Corn,known,Corn,0.9999271631240845,True
+data/raw/Corn_(maize)___healthy/3e60a3ab-304e-4620-ac3a-9e255ce0c779___R.S_HL 8207 copy.jpg,Corn,known,Corn,0.9999899864196777,True
+data/raw/Corn_(maize)___healthy/45c4f454-dcbb-43f3-9727-18e029a6901c___R.S_HL 5518 copy 2.jpg,Corn,known,Corn,0.9999984502792358,True
+data/raw/Corn_(maize)___healthy/5558853b-3853-4ef2-9824-a73060db0b30___R.S_HL 0631 copy 3.jpg,Corn,known,Corn,0.9999905824661255,True
+data/raw/Corn_(maize)___healthy/5756c0d0-91eb-425a-90cb-cc6364d64fd4___R.S_HL 8046 copy 2.jpg,Corn,known,Corn,1.0,True
+data/raw/Corn_(maize)___healthy/5c2c74b7-5687-4109-a5ce-0694f72f8095___R.S_HL 5534 copy.jpg,Corn,known,Corn,0.9999997615814209,True
+data/raw/Corn_(maize)___healthy/6a380e65-c86d-44a4-a9d9-91ee9ab8cd69___R.S_HL 8124 copy 2.jpg,Corn,known,Corn,0.9999994039535522,True
+data/raw/Corn_(maize)___healthy/7ebb0c77-b07d-421f-b593-3e2dc3f92254___R.S_HL 8306 copy 2.jpg,Corn,known,Corn,0.9999988079071045,True
+data/raw/Corn_(maize)___healthy/7f467853-2961-4e1f-ae5a-e4819e418c77___R.S_HL 7899 copy.jpg,Corn,known,Corn,0.9999282360076904,True
+data/raw/Corn_(maize)___healthy/82183af9-1261-4bba-8a8b-0eb57b4d42a8___R.S_HL 8096 copy.jpg,Corn,known,Corn,0.999927282333374,True
+data/raw/Corn_(maize)___healthy/8d41c88f-764d-4cdf-b12a-f71226f88c20___R.S_HL 8078 copy.jpg,Corn,known,Corn,0.9999986886978149,True
+data/raw/Corn_(maize)___healthy/8f9ad6d1-d9f0-40da-a2c4-e03234a5bbb0___R.S_HL 8037 copy.jpg,Corn,known,Corn,0.9999992847442627,True
+data/raw/Corn_(maize)___healthy/960290a7-64f3-4d17-88b2-de8772c5810b___R.S_HL 5509 copy.jpg,Corn,known,Corn,0.9970801472663879,True
+data/raw/Corn_(maize)___healthy/a07d9b98-d0e6-42be-8a97-b3b9470b384c___R.S_HL 7921 copy 3.jpg,Corn,known,Corn,0.9999948740005493,True
+data/raw/Corn_(maize)___healthy/a0bac4e0-eb5f-4165-9f45-1d3fc0ac32c9___R.S_HL 5501 copy 2.jpg,Corn,known,Corn,0.9999963045120239,True
+data/raw/Corn_(maize)___healthy/a3682b13-aca2-47d1-8e75-d7640e97af0a___R.S_HL 8006 copy.jpg,Corn,known,Corn,0.9999983310699463,True
+data/raw/Corn_(maize)___healthy/a9fcf4e5-73f1-4c51-a3ef-a5800cc6df62___R.S_HL 8025 copy.jpg,Corn,known,Corn,0.9999984502792358,True
+data/raw/Corn_(maize)___healthy/b21a07b8-8ede-4038-a837-6a7798b51327___R.S_HL 7917 copy 2.jpg,Corn,known,Corn,0.9993950128555298,True
+data/raw/Corn_(maize)___healthy/c80028fb-0d2b-4090-b858-a22720145dc2___R.S_HL 0627 copy 3.jpg,Corn,known,Corn,0.9999778270721436,True
+data/raw/Corn_(maize)___healthy/d2d6eb51-8cff-426e-9ca1-6802f880b120___R.S_HL 8287 copy 2.jpg,Corn,known,Corn,1.0,True
+data/raw/Corn_(maize)___healthy/d564cdcd-8b83-4ef1-b44d-9a1ac8f0a9f7___R.S_HL 7970 copy 2.jpg,Corn,known,Corn,0.9999393224716187,True
+data/raw/Corn_(maize)___healthy/d5a1d7a3-ac25-4f41-b51c-d8e675909775___R.S_HL 8132 copy.jpg,Corn,known,Corn,0.9999972581863403,True
+data/raw/Corn_(maize)___healthy/d665d2c7-6f91-4852-a1e5-923a9b494ae5___R.S_HL 7992 copy.jpg,Corn,known,Corn,0.9999779462814331,True
+data/raw/Corn_(maize)___healthy/da416e40-8b10-4d39-86ed-9da9396d98f0___R.S_HL 8278 copy 2.jpg,Corn,known,Corn,0.9999905824661255,True
+data/raw/Corn_(maize)___healthy/dfadedc1-b741-451c-9871-a8f7ba9db906___R.S_HL 7969 copy 2.jpg,Corn,known,Corn,0.9999444484710693,True
+data/raw/Corn_(maize)___healthy/e1b7f0d4-be03-417b-8edb-77c4e7b37e53___R.S_HL 8297 copy 2.jpg,Corn,known,Corn,0.9999945163726807,True
+data/raw/Corn_(maize)___healthy/e6064f5e-a864-44e5-8738-e6adf8f7f991___R.S_HL 7903 copy 2.jpg,Corn,known,Corn,0.9999963045120239,True
+data/raw/Corn_(maize)___healthy/e71c667a-19c0-45c4-91db-6dd38f946dce___R.S_HL 8058 copy.jpg,Corn,known,Corn,0.9999992847442627,True
+data/raw/Corn_(maize)___healthy/f5b5175b-c367-4f3e-aaf5-5bb4540cab20___R.S_HL 8105 copy 2.jpg,Corn,known,Corn,0.9999995231628418,True
+data/raw/Corn_(maize)___healthy/f6cd4802-4035-4eab-8a4f-a3ffa6f5f6c0___R.S_HL 8321 copy.jpg,Corn,known,Corn,0.9999992847442627,True
+data/raw/Corn_(maize)___healthy/f82f0eb7-b399-4983-b69b-8b2ac5f0c7f5___R.S_HL 5491 copy 4.jpg,Corn,known,Corn,0.9999973773956299,True
+data/raw/Corn_(maize)___healthy/faab655c-70a6-4888-9a14-48a4bfedc46e___R.S_HL 5556 copy.jpg,Corn,known,Corn,0.9992272853851318,True
+data/raw/Corn_(maize)___healthy/feddfdfa-14e3-4919-a527-814888364871___R.S_HL 5530 copy.jpg,Corn,known,Corn,0.9999797344207764,True
+data/raw/Grape___healthy/244804b5-05e2-4372-a376-36a0655aff41___Mt.N.V_HL 6121.JPG,Grape,known,Grape,0.999996542930603,True
+data/raw/Grape___healthy/25014ae7-b016-430a-b6a6-aa77dc3c4a8a___Mt.N.V_HL 8986.JPG,Grape,known,Grape,0.9999873638153076,True
+data/raw/Grape___healthy/2535a8a8-1676-482d-bf8e-6f4c54f87fc6___Mt.N.V_HL 6080.JPG,Grape,known,Grape,0.9993528723716736,True
+data/raw/Grape___healthy/2c4e117b-0a0f-43d0-93b5-88b2e77d272a___Mt.N.V_HL 6151.JPG,Grape,known,Grape,0.9999997615814209,True
+data/raw/Grape___healthy/2dd116dc-661a-45dd-9c22-8729914ac0dd___Mt.N.V_HL 6047.JPG,Grape,known,Grape,0.9035091400146484,False
+data/raw/Grape___healthy/4a31039d-54b1-4a0f-bc5f-2032f94c27af___Mt.N.V_HL 9040.JPG,Grape,known,Grape,0.9998782873153687,True
+data/raw/Grape___healthy/4b112b4d-b429-4c62-9c5f-72d07bc0089f___Mt.N.V_HL 6204.JPG,Grape,known,Grape,0.9999004602432251,True
+data/raw/Grape___healthy/4bd0c235-94b2-4d5d-a76e-58df595e7802___Mt.N.V_HL 6032.JPG,Grape,known,Grape,0.9999449253082275,True
+data/raw/Grape___healthy/51665d49-a91d-4790-a705-425d3bd9e62a___Mt.N.V_HL 6172.JPG,Grape,known,Grape,0.9999934434890747,True
+data/raw/Grape___healthy/52bb5946-964f-4dce-a8b8-8c01bdd8737d___Mt.N.V_HL 6078.JPG,Grape,known,Grape,0.9999725818634033,True
+data/raw/Grape___healthy/5b2c9b7e-4f3a-4850-bd70-35230df9c794___Mt.N.V_HL 8933.JPG,Grape,known,Grape,0.9999927282333374,True
+data/raw/Grape___healthy/63e38ffd-dfb4-4fc0-aee2-0e6da78a9915___Mt.N.V_HL 6028.JPG,Grape,known,Grape,0.9999921321868896,True
+data/raw/Grape___healthy/6f771370-1fb8-440e-a23f-4e0f29dbd65b___Mt.N.V_HL 6150.JPG,Grape,known,Grape,0.9998619556427002,True
+data/raw/Grape___healthy/781d2be9-b340-47ee-a21d-05f34b319e5f___Mt.N.V_HL 6021.JPG,Grape,known,Grape,0.9999549388885498,True
+data/raw/Grape___healthy/869e0f89-3cd1-4080-8789-7f13de41afac___Mt.N.V_HL 6144.JPG,Grape,known,Grape,0.9993174076080322,True
+data/raw/Grape___healthy/8af21b75-7158-4286-acdf-ef35cf54fe26___Mt.N.V_HL 6116.JPG,Grape,known,Grape,0.9994342923164368,True
+data/raw/Grape___healthy/8f838b46-d591-4247-bf64-982e45e1a699___Mt.N.V_HL 8952.JPG,Grape,known,Grape,0.9999819993972778,True
+data/raw/Grape___healthy/93f13053-88c2-4e0e-af52-b8057795b060___Mt.N.V_HL 8955.JPG,Grape,known,Grape,0.9999728202819824,True
+data/raw/Grape___healthy/954cafbf-1b60-4806-bb67-b51799ed369e___Mt.N.V_HL 6090.JPG,Grape,known,Grape,0.9992802739143372,True
+data/raw/Grape___healthy/9b9de786-29d7-4585-9760-76ee562530e3___Mt.N.V_HL 9063.JPG,Grape,known,Grape,0.9999741315841675,True
+data/raw/Grape___healthy/9d298426-9f1f-4d43-a568-f38790eaff75___Mt.N.V_HL 9025.JPG,Grape,known,Grape,0.9993506073951721,True
+data/raw/Grape___healthy/a47c4d69-8888-45dd-93bf-8f3421960604___Mt.N.V_HL 9082.JPG,Grape,known,Grape,0.999991774559021,True
+data/raw/Grape___healthy/abcc3c2c-22e8-4390-979a-41992db56375___Mt.N.V_HL 9070.JPG,Grape,known,Grape,0.9999969005584717,True
+data/raw/Grape___healthy/abe2906e-bb00-466f-bf7c-72ef59a5ea82___Mt.N.V_HL 9062.JPG,Grape,known,Grape,0.9912780523300171,True
+data/raw/Grape___healthy/ac6f22f2-1bdf-4bb3-8710-dd964a9f343a___Mt.N.V_HL 8913.JPG,Grape,known,Grape,0.9999902248382568,True
+data/raw/Grape___healthy/ac753212-e6d7-44b9-9722-4413a7418ab3___Mt.N.V_HL 6178.JPG,Grape,known,Grape,0.9998540878295898,True
+data/raw/Grape___healthy/b25497ff-4272-43e3-8ead-71b57c676529___Mt.N.V_HL 9087.JPG,Grape,known,Grape,0.9996716976165771,True
+data/raw/Grape___healthy/b6c619c6-fd1e-41f3-80c8-8b35c2fa87ee___Mt.N.V_HL 8973.JPG,Grape,known,Grape,0.9999958276748657,True
+data/raw/Grape___healthy/b80580f7-8e3e-4a81-ae32-df854d6ae3a8___Mt.N.V_HL 8978.JPG,Grape,known,Grape,0.9999982118606567,True
+data/raw/Grape___healthy/c3b72cd8-977b-4a6e-a833-7bcc87873882___Mt.N.V_HL 9068.JPG,Grape,known,Grape,0.9999574422836304,True
+data/raw/Grape___healthy/c95315d3-0a8f-476e-9eee-c6c9f4246841___Mt.N.V_HL 6197.JPG,Grape,known,Grape,0.9987887740135193,True
+data/raw/Grape___healthy/d9399e07-dc4e-4c86-af6d-a74a4bccc089___Mt.N.V_HL 8984.JPG,Grape,known,Grape,0.999886155128479,True
+data/raw/Grape___healthy/dd00817b-ae0e-4ac6-92c0-b3f7a9a272b7___Mt.N.V_HL 8923.JPG,Grape,known,Grape,0.9999938011169434,True
+data/raw/Grape___healthy/ddcf9afc-8a06-4778-8eba-95f8efe65be3___Mt.N.V_HL 6201.JPG,Grape,known,Grape,0.9998884201049805,True
+data/raw/Grape___healthy/e53defea-84c4-4b41-8c12-a53dda9e61b8___Mt.N.V_HL 9085.JPG,Grape,known,Grape,0.9999946355819702,True
+data/raw/Grape___healthy/f2b57b85-6951-4248-b52b-f56e800e9cec___Mt.N.V_HL 9072.JPG,Grape,known,Grape,0.9957427382469177,True
+data/raw/Grape___healthy/f6bca207-2928-4753-b867-ec5f25361334___Mt.N.V_HL 9113.JPG,Grape,known,Grape,0.9969618916511536,True
+data/raw/Grape___healthy/fed74aa9-511b-4958-824b-41066b2e5406___Mt.N.V_HL 8918.JPG,Grape,known,Grape,0.9834383130073547,False
+data/raw/Peach___healthy/017d3d86-12bf-4280-8929-10dcd504ac46___Rutg._HL 3671.JPG,Peach,known,Peach,0.9999796152114868,True
+data/raw/Peach___healthy/15fa9ad3-5775-47e7-a8eb-4218000625c9___Rutg._HL 3605.JPG,Peach,known,Peach,0.9999836683273315,True
+data/raw/Peach___healthy/22e79c3d-19e5-4978-95fc-d59d4ccabf73___Rutg._HL 3589.JPG,Peach,known,Peach,0.9985936284065247,True
+data/raw/Peach___healthy/24539bb3-bafa-4892-b4c7-44d228e0fae0___Rutg._HL 3709.JPG,Peach,known,Peach,0.9999951124191284,True
+data/raw/Peach___healthy/2eb97962-8ff4-43a9-84f7-3e67768963d9___Rutg._HL 3696.JPG,Peach,known,Peach,0.9999948740005493,True
+data/raw/Peach___healthy/318a8776-e017-48f7-8fb3-0da59c29e0e0___Rutg._HL 2446.JPG,Peach,known,Peach,0.9999974966049194,True
+data/raw/Peach___healthy/35b0801d-e617-470b-8dc7-48a8c1e7741f___Rutg._HL 3620.JPG,Peach,known,Peach,0.9995713829994202,True
+data/raw/Peach___healthy/3658d11f-3a09-43ce-bace-391510b30737___Rutg._HL 3569.JPG,Peach,known,Peach,0.9999996423721313,True
+data/raw/Peach___healthy/4804aad1-a744-4ffc-85ff-db4e37f856b9___Rutg._HL 3662.JPG,Peach,known,Peach,0.9966933727264404,True
+data/raw/Peach___healthy/4b4eb9a6-b00e-4760-b939-1a428e5e588a___Rutg._HL 3638.JPG,Peach,known,Peach,0.9999538660049438,True
+data/raw/Peach___healthy/532604de-0396-4511-85e8-f9eb41ae2a45___Rutg._HL 2482.JPG,Peach,known,Peach,0.9999785423278809,True
+data/raw/Peach___healthy/5defc887-a5af-4a56-aabb-0430136f1f25___Rutg._HL 3692.JPG,Peach,known,Peach,0.9999594688415527,True
+data/raw/Peach___healthy/5ea01071-e066-4018-9208-9e68e3e9f355___Rutg._HL 2476.JPG,Peach,known,Peach,0.9611403346061707,False
+data/raw/Peach___healthy/60883c05-253b-45b4-991b-92709dbd2c81___Rutg._HL 3747.JPG,Peach,known,Peach,0.9994705319404602,True
+data/raw/Peach___healthy/62aa8c46-3dac-4ddf-b567-a86132ffaabc___Rutg._HL 2466.JPG,Peach,known,Peach,0.9985644221305847,True
+data/raw/Peach___healthy/65f9c558-af8e-4346-aab7-77f7d353e75a___Rutg._HL 3665.JPG,Peach,known,Peach,0.9999023675918579,True
+data/raw/Peach___healthy/7204d56c-0a24-4a34-a3b8-8dbe5332e962___Rutg._HL 3523.JPG,Peach,known,Peach,0.9999964237213135,True
+data/raw/Peach___healthy/7a42f00f-0b6f-48f4-ada5-569fb12ce8f7___Rutg._HL 3682.JPG,Peach,known,Peach,0.999969482421875,True
+data/raw/Peach___healthy/7ce08c69-b8ad-45e4-b91e-6d45a257973b___Rutg._HL 3568.JPG,Peach,known,Peach,0.9999996423721313,True
+data/raw/Peach___healthy/7d49c146-62a9-4b83-855a-b29b2ccbf8e1___Rutg._HL 3587.JPG,Peach,known,Peach,0.9999936819076538,True
+data/raw/Peach___healthy/814d98ab-0c6e-493b-ad41-c7e108ddc851___Rutg._HL 2481.JPG,Peach,known,Peach,0.999997615814209,True
+data/raw/Peach___healthy/91f847f3-3016-45a4-b8ac-4cf47cc40430___Rutg._HL 3700.JPG,Peach,known,Peach,0.999998927116394,True
+data/raw/Peach___healthy/93419b00-008e-4b29-bb93-b9e2769aa450___Rutg._HL 3627.JPG,Peach,known,Peach,0.9996299743652344,True
+data/raw/Peach___healthy/95f38d4e-5e8d-4b72-ac83-bd7e794a3093___Rutg._HL 2498.JPG,Peach,known,Peach,0.9999690055847168,True
+data/raw/Peach___healthy/987e0ba5-46c4-45ff-bf11-4553365e217c___Rutg._HL 3703.JPG,Peach,known,Peach,0.9999961853027344,True
+data/raw/Peach___healthy/a36b7c13-2c97-497c-a168-b6a68a6a95a4___Rutg._HL 3679.JPG,Peach,known,Peach,0.9999816417694092,True
+data/raw/Peach___healthy/a61c536d-7c39-42dd-9296-c9543f30da91___Rutg._HL 3567.JPG,Peach,known,Peach,0.9999991655349731,True
+data/raw/Peach___healthy/a7f8cef3-6a9f-4bc3-8846-1efce8363829___Rutg._HL 2440.JPG,Peach,known,Peach,0.9998914003372192,True
+data/raw/Peach___healthy/b182f03d-3b0c-4226-86fc-ca246937c7cc___Rutg._HL 3752.JPG,Peach,known,Peach,0.9999221563339233,True
+data/raw/Peach___healthy/b7e10988-36af-4eb5-a5dd-b512dbc4ff59___Rutg._HL 2462.JPG,Peach,known,Peach,0.9999997615814209,True
+data/raw/Peach___healthy/cb8cd328-b395-43f1-a392-664272c8c248___Rutg._HL 3519.JPG,Peach,known,Peach,0.9999843835830688,True
+data/raw/Peach___healthy/cc96e538-a32d-4277-b2da-3563696b2ad3___Rutg._HL 3690.JPG,Peach,known,Peach,0.9997275471687317,True
+data/raw/Peach___healthy/db647285-3411-49b3-b8d7-3670cf216e52___Rutg._HL 2418.JPG,Peach,known,Peach,0.9997641444206238,True
+data/raw/Peach___healthy/e365fd19-4922-44ea-ae2a-ab3cf9b9dc00___Rutg._HL 3689.JPG,Peach,known,Peach,0.999997615814209,True
+data/raw/Peach___healthy/e7e532ec-6d7f-4c2a-9687-c8b4843048b0___Rutg._HL 2404.JPG,Peach,known,Peach,0.9450954794883728,False
+data/raw/Peach___healthy/e96a7083-0d41-4888-8f03-147729559c2e___Rutg._HL 3713.JPG,Peach,known,Peach,0.9999974966049194,True
+data/raw/Peach___healthy/f210cd1d-153a-4c85-a7f6-0a0348381314___Rutg._HL 2487.JPG,Peach,known,Peach,1.0,True
+data/raw/Peach___healthy/fd40d2b0-c139-4661-973f-7c5ee06a55a2___Rutg._HL 3597.JPG,Peach,known,Peach,0.8653266429901123,False
+data/raw/Tomato___healthy/050e7bff-2f2d-4c92-9422-05ce93f1d5a9___RS_HL 0097.JPG,Tomato,known,Tomato,0.9999890327453613,True
+data/raw/Tomato___healthy/0d932b2a-584e-4971-8590-70c5f0a049cf___RS_HL 9739.JPG,Tomato,known,Tomato,0.9999475479125977,True
+data/raw/Tomato___healthy/1ae5cf7c-f03a-4591-93e9-61d9784763e0___RS_HL 0043.JPG,Tomato,known,Tomato,0.9999964237213135,True
+data/raw/Tomato___healthy/267fd403-bea5-4a99-ae97-ea1c272623a1___GH_HL Leaf 440.1.JPG,Tomato,known,Tomato,0.9999889135360718,True
+data/raw/Tomato___healthy/2763797b-4786-41ef-8ff1-73b088f9973c___GH_HL Leaf 231.JPG,Tomato,known,Tomato,0.9999713897705078,True
+data/raw/Tomato___healthy/29d9f827-5e61-4b9b-acba-db0e7ce2016d___GH_HL Leaf 480.JPG,Tomato,known,Tomato,0.999508261680603,True
+data/raw/Tomato___healthy/2fd78b0f-a307-4824-9e6c-ff4a3f27e3c8___GH_HL Leaf 403.JPG,Tomato,known,Tomato,0.9998230338096619,True
+data/raw/Tomato___healthy/42ae0091-fbfd-43e6-8a48-805051f770a0___RS_HL 0463.JPG,Tomato,known,Tomato,0.9965403079986572,True
+data/raw/Tomato___healthy/4ed59995-6214-4996-b98b-750e85433920___GH_HL Leaf 474.JPG,Tomato,known,Tomato,0.9996583461761475,True
+data/raw/Tomato___healthy/5c23afc6-7236-4f07-adcd-61b1f69e3fb2___RS_HL 9801.JPG,Tomato,known,Tomato,0.9999985694885254,True
+data/raw/Tomato___healthy/5df79085-2c00-41d6-ac0f-33a831a16d89___RS_HL 9634.JPG,Tomato,known,Tomato,0.9999992847442627,True
+data/raw/Tomato___healthy/635f7ae3-1561-4006-9c23-f9150ca50b78___RS_HL 9967.JPG,Tomato,known,Tomato,0.9999938011169434,True
+data/raw/Tomato___healthy/65c31a47-0609-481c-b077-1ff6225fe2bb___RS_HL 0208.JPG,Tomato,known,Tomato,0.99782395362854,True
+data/raw/Tomato___healthy/6f489b75-4fca-4aae-834d-409db790224b___GH_HL Leaf 205.JPG,Tomato,known,Tomato,0.999984622001648,True
+data/raw/Tomato___healthy/739d1e6a-f835-4ff4-ab1c-33946def661a___GH_HL Leaf 219.JPG,Tomato,known,Tomato,0.9989171028137207,True
+data/raw/Tomato___healthy/74463e4f-524e-4dad-a936-b167d6846bcf___RS_HL 9971.JPG,Tomato,known,Tomato,0.9999982118606567,True
+data/raw/Tomato___healthy/7af927ee-8940-49bf-bcb3-78ec3fcc40f3___RS_HL 9626.JPG,Tomato,known,Tomato,0.9997498393058777,True
+data/raw/Tomato___healthy/86a7487a-e9a1-413c-b8ad-6dfacf9c0b2a___GH_HL Leaf 413.1.JPG,Tomato,known,Tomato,0.9995895028114319,True
+data/raw/Tomato___healthy/8db75488-efa8-48f9-bfe8-453b1b5a2b94___RS_HL 9706.JPG,Tomato,known,Tomato,0.8764373660087585,False
+data/raw/Tomato___healthy/9299f3e8-15ee-4cf2-997a-058bb19900a5___RS_HL 9781.JPG,Tomato,known,Tomato,0.999951958656311,True
+data/raw/Tomato___healthy/9c3ad610-7677-4f3c-9646-88069e0c61cb___GH_HL Leaf 449.2.JPG,Tomato,known,Tomato,0.9999920129776001,True
+data/raw/Tomato___healthy/9d447b38-bd33-46f0-880b-324481fbae19___RS_HL 0366.JPG,Tomato,known,Tomato,0.9998730421066284,True
+data/raw/Tomato___healthy/9e2a71e5-2a59-4e62-9c6c-581fe9091a10___RS_HL 0132.JPG,Tomato,known,Tomato,0.9998014569282532,True
+data/raw/Tomato___healthy/9fb8872e-e963-4d2c-9b16-62757705ca3f___RS_HL 0130.JPG,Tomato,known,Tomato,0.9999940395355225,True
+data/raw/Tomato___healthy/a154b0c0-ad46-47ec-b9f4-50a4ee625849___RS_HL 9827.JPG,Tomato,known,Tomato,0.9999852180480957,True
+data/raw/Tomato___healthy/a9108826-cab0-429d-9a81-c42b21ee2682___RS_HL 9874.JPG,Tomato,known,Tomato,0.9999195337295532,True
+data/raw/Tomato___healthy/ad6857d9-7cf0-42ec-b61b-7b5208863831___RS_HL 0320.JPG,Tomato,known,Tomato,0.9998581409454346,True
+data/raw/Tomato___healthy/b7e6f4d6-faa0-49a7-a977-53ddcaaa721e___RS_HL 0186.JPG,Tomato,known,Tomato,0.9974455833435059,True
+data/raw/Tomato___healthy/b8af2ce5-8429-4842-8ebc-c9d1ac9ed96f___GH_HL Leaf 301.JPG,Tomato,known,Tomato,0.9999008178710938,True
+data/raw/Tomato___healthy/bc825946-3ee5-4269-8ba4-202afc766654___RS_HL 0368.JPG,Tomato,known,Tomato,0.9999583959579468,True
+data/raw/Tomato___healthy/c4238856-a924-4621-a4eb-3f34668aa23c___RS_HL 0592.JPG,Tomato,known,Tomato,0.9998898506164551,True
+data/raw/Tomato___healthy/c4a30e2a-f520-4cdc-a58d-7ea1eb7c22e6___GH_HL Leaf 454.JPG,Tomato,known,Tomato,0.9707801342010498,False
+data/raw/Tomato___healthy/d15336df-9f16-4f8b-805f-d74f27af2735___RS_HL 9723.JPG,Tomato,known,Tomato,0.9998975992202759,True
+data/raw/Tomato___healthy/de56bf63-8f55-426a-a2a1-8a8a635ad5a0___RS_HL 9747.JPG,Tomato,known,Tomato,0.9999986886978149,True
+data/raw/Tomato___healthy/e090d873-c435-4d1b-95dd-29f5a2f22a09___GH_HL Leaf 266.1.JPG,Tomato,known,Tomato,0.9999979734420776,True
+data/raw/Tomato___healthy/f2758dd2-5274-45df-8f00-639731ec3120___RS_HL 9750.JPG,Tomato,known,Tomato,0.9664544463157654,False
+data/raw/Tomato___healthy/fd27de23-27cd-4f09-a962-df0b26899b07___RS_HL 0039.JPG,Tomato,known,Tomato,0.9999346733093262,True
+data/raw/Potato___healthy/00fc2ee5-729f-4757-8aeb-65c3355874f2___RS_HL 1864.JPG,Potato,unknown,Tomato,0.9999988079071045,True
+data/raw/Potato___healthy/03da9931-e514-4cc7-b04a-8f474a133ce5___RS_HL 1830.JPG,Potato,unknown,Tomato,0.9989932179450989,True
+data/raw/Potato___healthy/04481ca2-f94c-457e-b785-1ac05800b7ec___RS_HL 1930.JPG,Potato,unknown,Apple,0.9638435244560242,False
+data/raw/Potato___healthy/046641c1-f837-49eb-b5f2-4109910a027c___RS_HL 1878.JPG,Potato,unknown,Tomato,0.8283518552780151,False
+data/raw/Potato___healthy/07dfb451-4378-49d1-b699-33a5fc49ff07___RS_HL 5399.JPG,Potato,unknown,Tomato,0.9451180696487427,False
+data/raw/Potato___healthy/0b3e5032-8ae8-49ac-8157-a1cac3df01dd___RS_HL 1817.JPG,Potato,unknown,Tomato,0.8722549080848694,False
+data/raw/Potato___healthy/0be9d721-82f5-42c3-b535-7494afe01dbe___RS_HL 1814.JPG,Potato,unknown,Tomato,0.8687883019447327,False
+data/raw/Potato___healthy/0f4ebc5a-d646-436a-919d-961342997cde___RS_HL 4183.JPG,Potato,unknown,Tomato,0.9895960688591003,False
+data/raw/Potato___healthy/1106c3fc-92cb-41a6-a6c6-8f08b9b45108___RS_HL 1914.JPG,Potato,unknown,Tomato,0.9984544515609741,True
+data/raw/Potato___healthy/111cd9d8-4d27-4225-be9e-d29b21cf56b9___RS_HL 5419.JPG,Potato,unknown,Apple,0.9460682272911072,False
+data/raw/Potato___healthy/142fb983-2166-4a0f-b99b-a6c21e99987e___RS_HL 5398.JPG,Potato,unknown,Tomato,0.8370248079299927,False
+data/raw/Potato___healthy/14484ea5-9c34-427c-abe4-2743265aced0___RS_HL 4204.JPG,Potato,unknown,Apple,0.9950462579727173,True
+data/raw/Potato___healthy/144d2475-21ab-4bdc-a67c-9672a9b711e6___RS_HL 5376.JPG,Potato,unknown,Apple,0.7864039540290833,False
+data/raw/Potato___healthy/163ada72-4288-4f85-a3c1-feed23c8d1de___RS_HL 1940.JPG,Potato,unknown,Tomato,0.9876145124435425,False
+data/raw/Potato___healthy/170f1f57-0fd4-421f-9c82-3b1804be63ad___RS_HL 1771.JPG,Potato,unknown,Tomato,0.7240469455718994,False
+data/raw/Potato___healthy/1a1184f8-c414-4ead-a4c4-41ae78e29a82___RS_HL 1971.JPG,Potato,unknown,Tomato,0.741837203502655,False
+data/raw/Potato___healthy/1ae826e2-5148-47bd-a44c-711ec9cc9c75___RS_HL 1954.JPG,Potato,unknown,Tomato,0.9990954399108887,True
+data/raw/Potato___healthy/1b434c52-7be4-40c4-90d5-13220f1a3eba___RS_HL 5418.JPG,Potato,unknown,Apple,0.9984973669052124,True
+data/raw/Potato___healthy/1dcfeaa9-006d-470c-b3e5-d67609d07d4e___RS_HL 1808.JPG,Potato,unknown,Tomato,0.6509919166564941,False
+data/raw/Potato___healthy/1f9870b3-899e-46fb-98c9-cfc2ce92895b___RS_HL 1816.JPG,Potato,unknown,Tomato,0.5293745994567871,False
+data/raw/Potato___healthy/20ac28d6-5708-4e31-8676-1b1979de094f___RS_HL 1735.JPG,Potato,unknown,Tomato,0.995222270488739,True
+data/raw/Potato___healthy/22322780-95b4-4b45-b626-26b22965d55e___RS_HL 1880.JPG,Potato,unknown,Tomato,0.9641380906105042,False
+data/raw/Potato___healthy/23f1ab77-d664-49c4-92eb-41eb66c6d101___RS_HL 4169.JPG,Potato,unknown,Apple,0.9068373441696167,False
+data/raw/Potato___healthy/23f4d3b1-23f4-43fb-96c2-dae37224ec74___RS_HL 1803.JPG,Potato,unknown,Tomato,0.9550419449806213,False
+data/raw/Potato___healthy/2ccb9ee9-faac-4d32-9af5-29497fa2e028___RS_HL 1837.JPG,Potato,unknown,Tomato,0.9787463545799255,False
+data/raw/Potato___healthy/2d98cbc8-cbe6-423c-b2ab-3f7f8bcea5d5___RS_HL 1945.JPG,Potato,unknown,Tomato,0.6085312962532043,False
+data/raw/Potato___healthy/2dee1571-ef6b-40ef-8c46-334e89aad3f1___RS_HL 1950.JPG,Potato,unknown,Tomato,0.9888888001441956,False
+data/raw/Potato___healthy/2e0b8b4b-e900-408b-b760-730690bbd382___RS_HL 1901.JPG,Potato,unknown,Tomato,0.9974754452705383,True
+data/raw/Potato___healthy/30126310-39de-4c02-b10a-23409417a4f6___RS_HL 1826.JPG,Potato,unknown,Tomato,0.9896316528320312,False
+data/raw/Potato___healthy/30937333-8898-4634-8c00-af57d3020ba6___RS_HL 1922.JPG,Potato,unknown,Tomato,0.9928146600723267,True
+data/raw/Potato___healthy/369479a9-3c28-4d77-8731-9ae54e719af3___RS_HL 1785.JPG,Potato,unknown,Tomato,0.9414070248603821,False
+data/raw/Potato___healthy/36bdc44c-96a4-40bb-86f7-63a91d706e96___RS_HL 4203.JPG,Potato,unknown,Apple,0.9397132992744446,False
+data/raw/Potato___healthy/38faf81d-c83b-42ca-b4c3-e3bbfa070589___RS_HL 1805.JPG,Potato,unknown,Apple,0.9829573035240173,False
+data/raw/Potato___healthy/3a00204c-5e53-4e5d-95a6-f8819031744e___RS_HL 5420.JPG,Potato,unknown,Apple,0.9643731117248535,False
+data/raw/Potato___healthy/3a1dbeee-089c-43f0-8f51-a92d3687a515___RS_HL 1754.JPG,Potato,unknown,Tomato,0.8940386176109314,False
+data/raw/Potato___healthy/3c0d6888-c7e1-4cf8-9c25-9a0b8c62ba72___RS_HL 1780.JPG,Potato,unknown,Apple,0.8411897420883179,False
+data/raw/Potato___healthy/3edf7c3f-73e0-439c-870d-76cfd7c3bc45___RS_HL 1859.JPG,Potato,unknown,Tomato,0.9248793721199036,False
+data/raw/Potato___healthy/3f369e63-81eb-4194-a145-df9ed91abc5d___RS_HL 1745.JPG,Potato,unknown,Tomato,0.9635563492774963,False
+data/raw/Potato___healthy/413bc2e9-eb2a-48fd-ba65-48b5121fd85c___RS_HL 4200.JPG,Potato,unknown,Apple,0.998611569404602,True
+data/raw/Potato___healthy/414f6249-9f78-4af5-9593-9d5a7e7d979f___RS_HL 1918.JPG,Potato,unknown,Apple,0.6157935857772827,False
+data/raw/Potato___healthy/415ac4a2-8f16-4052-880e-1e1f208965f0___RS_HL 1884.JPG,Potato,unknown,Tomato,0.8313402533531189,False
+data/raw/Potato___healthy/43fd6ace-3712-494a-9aba-de5482d22561___RS_HL 1968.JPG,Potato,unknown,Tomato,0.9447107315063477,False
+data/raw/Potato___healthy/45bc0b37-ca59-4a89-8531-705af42a6fd5___RS_HL 1946.JPG,Potato,unknown,Tomato,0.9608065485954285,False
+data/raw/Potato___healthy/468d3107-f09a-4f0d-8b9d-f08d7c49738f___RS_HL 1747.JPG,Potato,unknown,Tomato,0.9957946538925171,True
+data/raw/Potato___healthy/46b2555a-c0a6-48c2-af13-0816e147e4de___RS_HL 1943.JPG,Potato,unknown,Tomato,0.995652437210083,True
+data/raw/Potato___healthy/4a08efaa-28cc-4356-8769-4002f4b299ef___RS_HL 1850.JPG,Potato,unknown,Tomato,0.9997465014457703,True
+data/raw/Potato___healthy/4ae82355-6885-40e7-9807-dabe46ed3441___RS_HL 5410.JPG,Potato,unknown,Tomato,0.9090944528579712,False
+data/raw/Potato___healthy/4bbccfb6-5720-4c80-9b37-0c3ed8999c9f___RS_HL 1791.JPG,Potato,unknown,Tomato,0.9939629435539246,True
+data/raw/Potato___healthy/51a03694-82cd-43a5-9877-ddce42c1a5ad___RS_HL 1779.JPG,Potato,unknown,Tomato,0.9669288992881775,False
+data/raw/Potato___healthy/52dd2fdd-6966-450c-a42b-ee14428d4271___RS_HL 1955.JPG,Potato,unknown,Tomato,0.5779059529304504,False
+data/raw/Potato___healthy/533abd3a-3e1d-42d0-ae9c-5189282b78af___RS_HL 5369.JPG,Potato,unknown,Apple,0.913179874420166,False
+data/raw/Potato___healthy/54f86311-9d76-421b-b401-0b02f6e738a5___RS_HL 4172.JPG,Potato,unknown,Tomato,0.9623908996582031,False
+data/raw/Potato___healthy/56ae1281-5ee5-4f2a-8678-c2e4491878c6___RS_HL 1869.JPG,Potato,unknown,Tomato,0.9999977350234985,True
+data/raw/Potato___healthy/57c2663b-5d1d-4476-b067-38b2149c3b2d___RS_HL 1796.JPG,Potato,unknown,Tomato,0.9649245142936707,False
+data/raw/Potato___healthy/57e24d88-fd01-4422-b8b5-d688d2296184___RS_HL 5401.JPG,Potato,unknown,Tomato,0.9795457124710083,False
+data/raw/Potato___healthy/57e262fc-e0ba-44db-a967-5ba6f1826e49___RS_HL 1897.JPG,Potato,unknown,Apple,0.6124252676963806,False
+data/raw/Potato___healthy/58a98860-86d8-41e7-9f8c-cc2ca5e90012___RS_HL 1758.JPG,Potato,unknown,Apple,0.6449373364448547,False
+data/raw/Potato___healthy/5a3fc4bb-a78c-4276-8934-f0b037ffb860___RS_HL 5412.JPG,Potato,unknown,Apple,0.9621161818504333,False
+data/raw/Potato___healthy/5cb360dd-5c17-4c57-b31d-97cd8dd8d0bd___RS_HL 1797.JPG,Potato,unknown,Tomato,0.9730198979377747,False
+data/raw/Potato___healthy/5d505af8-3f73-4781-980c-a4a696a04550___RS_HL 1934.JPG,Potato,unknown,Tomato,0.9992546439170837,True
+data/raw/Potato___healthy/5df30492-0b54-474d-8883-bba9474ca88f___RS_HL 1801.JPG,Potato,unknown,Apple,0.9086591005325317,False
+data/raw/Potato___healthy/5e19b1f4-fd65-4c4d-bcd2-18c8c519eddb___RS_HL 1965.JPG,Potato,unknown,Tomato,0.999775230884552,True
+data/raw/Potato___healthy/5ea316eb-10a2-42c0-b781-40d90356ccaa___RS_HL 1935.JPG,Potato,unknown,Tomato,0.9997417330741882,True
+data/raw/Potato___healthy/5fcbde8f-52af-4963-b324-ff7f4dd6bd4c___RS_HL 1762.JPG,Potato,unknown,Tomato,0.9971222281455994,True
+data/raw/Potato___healthy/60e9a878-13e0-4345-964c-fd807cd20bbb___RS_HL 1876.JPG,Potato,unknown,Tomato,0.987109899520874,False
+data/raw/Potato___healthy/61b05f0a-14bc-4c8f-a256-57c8b8898d8c___RS_HL 1769.JPG,Potato,unknown,Tomato,0.9998905658721924,True
+data/raw/Potato___healthy/61b8a692-91d8-40f5-a4a4-4d910875a638___RS_HL 1966.JPG,Potato,unknown,Tomato,0.8369927406311035,False
+data/raw/Potato___healthy/683b04ad-7941-4819-9965-ba32c725eb22___RS_HL 1861.JPG,Potato,unknown,Apple,0.8394649624824524,False
+data/raw/Potato___healthy/6f4b9acd-f34d-4771-a6bc-2001de2dd1d3___RS_HL 1898.JPG,Potato,unknown,Tomato,0.9937121868133545,True
+data/raw/Potato___healthy/71c06efe-089f-49b3-beed-095bd7640e32___RS_HL 1947.JPG,Potato,unknown,Apple,0.9120641350746155,False
+data/raw/Potato___healthy/750584fd-72e0-45c8-b37c-97208bd559cc___RS_HL 1885.JPG,Potato,unknown,Tomato,0.9985374212265015,True
+data/raw/Potato___healthy/762672f4-17e6-4fd6-84f1-3bcb091b3ca5___RS_HL 5417.JPG,Potato,unknown,Apple,0.721406877040863,False
+data/raw/Potato___healthy/774875d3-438a-4305-afe2-7d59e2925dc4___RS_HL 1759.JPG,Potato,unknown,Tomato,0.6502591967582703,False
+data/raw/Potato___healthy/77c75478-e1f0-4aaa-9cbc-af1fed928a74___RS_HL 1748.JPG,Potato,unknown,Tomato,0.9850991368293762,False
+data/raw/Potato___healthy/7948ada9-eabc-4cb7-a579-b73e938eb716___RS_HL 4185.JPG,Potato,unknown,Tomato,0.9484395980834961,False
+data/raw/Potato___healthy/799b10e8-ba67-4e08-9abe-748789572ad1___RS_HL 1881.JPG,Potato,unknown,Tomato,0.6398175358772278,False
+data/raw/Potato___healthy/7bfda067-6e35-4af5-a9c4-4b3b5f357871___RS_HL 1813.JPG,Potato,unknown,Tomato,0.7974685430526733,False
+data/raw/Potato___healthy/7e6c8297-dfe1-4826-826e-01d696cc263b___RS_HL 1863.JPG,Potato,unknown,Tomato,0.9999991655349731,True
+data/raw/Potato___healthy/7e7b6ab4-9adb-4a3b-abfb-8716b0039879___RS_HL 1921.JPG,Potato,unknown,Apple,0.5582314729690552,False
+data/raw/Potato___healthy/80bb8697-bfab-449b-b870-e1ed2089df58___RS_HL 1827.JPG,Potato,unknown,Tomato,0.9995877146720886,True
+data/raw/Potato___healthy/849aa978-c7b9-4344-9ca8-129219a65f8e___RS_HL 1874.JPG,Potato,unknown,Tomato,0.527379035949707,False
+data/raw/Potato___healthy/8583c4ff-2d8b-4b6f-89a8-fcc98917ce9b___RS_HL 1961.JPG,Potato,unknown,Tomato,0.9990997314453125,True
+data/raw/Potato___healthy/8665efd2-fa3d-45f8-b1c0-746c99fb7d1e___RS_HL 1924.JPG,Potato,unknown,Tomato,0.9866297245025635,False
+data/raw/Potato___healthy/875d6ded-5f01-495c-a945-ad2e17f87f91___RS_HL 1848.JPG,Potato,unknown,Tomato,0.8790977001190186,False
+data/raw/Potato___healthy/882798ca-67c3-45a3-86cf-4aed69388145___RS_HL 1750.JPG,Potato,unknown,Tomato,0.9997290968894958,True
+data/raw/Potato___healthy/8b2ce6b6-f00a-4f25-ac6d-4249dd7dc5f6___RS_HL 1890.JPG,Potato,unknown,Tomato,0.9989225268363953,True
+data/raw/Potato___healthy/8c1e1281-5937-4559-a02f-02817de6e122___RS_HL 4173.JPG,Potato,unknown,Tomato,0.946406364440918,False
+data/raw/Potato___healthy/907f26b7-a14f-463f-a41e-f35d6e0f1417___RS_HL 1757.JPG,Potato,unknown,Tomato,0.9998626708984375,True
+data/raw/Potato___healthy/923d4cc3-021a-4bcd-9f5f-1d6f69e4ad33___RS_HL 1888.JPG,Potato,unknown,Tomato,0.9965713024139404,True
+data/raw/Potato___healthy/929107f1-4ae9-4dae-8319-ae7cf4804236___RS_HL 1932.JPG,Potato,unknown,Tomato,0.9980657696723938,True
+data/raw/Potato___healthy/949cafd0-098b-497f-9590-f0fb8ccafc94___RS_HL 4168.JPG,Potato,unknown,Apple,0.9508809447288513,False
+data/raw/Potato___healthy/9a6eb7c4-6b43-477a-89e0-69f62ef67991___RS_HL 1846.JPG,Potato,unknown,Tomato,0.9993689656257629,True
+data/raw/Potato___healthy/9b5be0c5-7d7e-493d-88ba-c721c85f73ca___RS_HL 5405.JPG,Potato,unknown,Tomato,0.928467869758606,False
+data/raw/Potato___healthy/9c620128-2872-4bbb-bc14-d5b785242cf6___RS_HL 1751.JPG,Potato,unknown,Tomato,0.9861888289451599,False
+data/raw/Potato___healthy/9d7d1bb9-1b10-4a8f-a961-e404b9d5acf8___RS_HL 1960.JPG,Potato,unknown,Tomato,0.9935572743415833,True
+data/raw/Potato___healthy/a02b6205-b40a-4178-8b34-3494f84b9d1f___RS_HL 1958.JPG,Potato,unknown,Apple,0.5115960240364075,False
+data/raw/Potato___healthy/a1abff90-34e5-464d-b4d3-0c09f5924900___RS_HL 5414.JPG,Potato,unknown,Tomato,0.9602070450782776,False
+data/raw/Potato___healthy/a3ec91aa-8503-4711-a912-0d1427e25686___RS_HL 5409.JPG,Potato,unknown,Tomato,0.9958258867263794,True
+data/raw/Potato___healthy/a4d1d8cb-26a2-413f-a229-021e2eea87ac___RS_HL 1819.JPG,Potato,unknown,Tomato,0.9969768524169922,True
+data/raw/Potato___healthy/a5050bde-febc-4931-b31d-45c9652df318___RS_HL 5373.JPG,Potato,unknown,Apple,0.9979604482650757,True
+data/raw/Potato___healthy/a8d687be-3777-403f-bae7-5c8c19340b3f___RS_HL 1738.JPG,Potato,unknown,Tomato,0.972722589969635,False
+data/raw/Potato___healthy/ad9b6cf4-e065-496d-91c7-5713ce14e19e___RS_HL 1926.JPG,Potato,unknown,Tomato,0.9993652701377869,True
+data/raw/Potato___healthy/af15ac00-67ff-4114-ace8-6dca48b94665___RS_HL 1865.JPG,Potato,unknown,Tomato,0.9999725818634033,True
+data/raw/Potato___healthy/b0fe9fe9-52e7-40e4-b4c0-769f1a0c7fb9___RS_HL 4175.JPG,Potato,unknown,Tomato,0.6296543478965759,False
+data/raw/Potato___healthy/b28c43f9-5844-4e9b-86bf-36bc114cae07___RS_HL 1736.JPG,Potato,unknown,Tomato,0.9758120179176331,False
+data/raw/Potato___healthy/b35b9f8b-daca-4d12-a5be-defe68d0acc5___RS_HL 1903.JPG,Potato,unknown,Tomato,0.997502863407135,True
+data/raw/Potato___healthy/b4031970-60ea-4739-9fed-6c81be1bad1c___RS_HL 1752.JPG,Potato,unknown,Tomato,0.9988594055175781,True
+data/raw/Potato___healthy/b42621c3-f751-46e1-a8d2-83ed85b90554___RS_HL 1740.JPG,Potato,unknown,Tomato,0.8421599864959717,False
+data/raw/Potato___healthy/b536ea91-c5f8-413b-87f3-a22ac3d959d1___RS_HL 1825.JPG,Potato,unknown,Tomato,0.7200472950935364,False
+data/raw/Potato___healthy/b61b9d33-59ea-41b0-a554-c382eb6128c5___RS_HL 1919.JPG,Potato,unknown,Tomato,0.9969095587730408,True
+data/raw/Potato___healthy/b89db9d3-a413-4781-bc88-5f6c2085ab5f___RS_HL 1909.JPG,Potato,unknown,Tomato,0.9994621872901917,True
+data/raw/Potato___healthy/b8b7b98a-eb1a-4213-9b0b-aeef4df427e8___RS_HL 1858.JPG,Potato,unknown,Apple,0.8477630615234375,False
+data/raw/Potato___healthy/b925ad3e-fc49-497d-a6eb-115f0de20800___RS_HL 4170.JPG,Potato,unknown,Tomato,0.9973095655441284,True
+data/raw/Potato___healthy/b9ea902d-e557-4fa5-893b-39a7a57c0121___RS_HL 1893.JPG,Potato,unknown,Tomato,0.9620105624198914,False
+data/raw/Potato___healthy/bb04f738-1848-4dda-8834-384a48b335cd___RS_HL 1765.JPG,Potato,unknown,Tomato,0.9999253749847412,True
+data/raw/Potato___healthy/bb328d40-e4e6-4b84-a92a-e7cb3922c19d___RS_HL 1829.JPG,Potato,unknown,Tomato,0.9991355538368225,True
+data/raw/Potato___healthy/bde33d08-678c-4f84-b80e-fcb986a9a446___RS_HL 5415.JPG,Potato,unknown,Apple,0.9897603392601013,True
+data/raw/Potato___healthy/bf2bffbb-cd8f-4d36-bd58-847808397c75___RS_HL 1786.JPG,Potato,unknown,Tomato,0.9993776679039001,True
+data/raw/Potato___healthy/c07db642-c675-4066-99b6-56bc8207fb37___RS_HL 4164.JPG,Potato,unknown,Apple,0.969215452671051,False
+data/raw/Potato___healthy/c3caa84b-6078-4489-80ac-919d92d25ff7___RS_HL 1772.JPG,Potato,unknown,Tomato,0.9796020984649658,False
+data/raw/Potato___healthy/c548fe0e-21c2-4241-b806-1e438a1213bd___RS_HL 1770.JPG,Potato,unknown,Tomato,0.9396858811378479,False
+data/raw/Potato___healthy/c6204cb3-cd9f-4d7b-92a6-9773fe562cab___RS_HL 1939.JPG,Potato,unknown,Tomato,0.8509255051612854,False
+data/raw/Potato___healthy/c6abf1da-b06f-4cd2-8af6-d68be5eff6f9___RS_HL 1766.JPG,Potato,unknown,Tomato,0.9991388320922852,True
+data/raw/Potato___healthy/c85bacb0-e5e8-4127-a0b0-a7342f2cab5f___RS_HL 5406.JPG,Potato,unknown,Tomato,0.5139358639717102,False
+data/raw/Potato___healthy/c9ad5c9a-c9b0-4e07-9e03-9e9edfd58a19___RS_HL 1755.JPG,Potato,unknown,Tomato,0.9986735582351685,True
+data/raw/Potato___healthy/d1752ed4-a0a7-4075-917d-205c0e785dcf___RS_HL 1911.JPG,Potato,unknown,Tomato,0.9996558427810669,True
+data/raw/Potato___healthy/d227e4c8-e203-4aa4-b813-25b96baa2869___RS_HL 1831.JPG,Potato,unknown,Tomato,0.9882814288139343,False
+data/raw/Potato___healthy/d287be3d-cac6-4485-8c31-674fb8b459be___RS_HL 1973.JPG,Potato,unknown,Tomato,0.9953923225402832,True
+data/raw/Potato___healthy/d325e580-5faa-4aea-927d-2700f52cc343___RS_HL 1872.JPG,Potato,unknown,Tomato,0.9959329962730408,True
+data/raw/Potato___healthy/d340704d-cc00-4068-bb8a-ae70840b7bfa___RS_HL 1773.JPG,Potato,unknown,Tomato,0.8966017961502075,False
+data/raw/Potato___healthy/d50a580b-46bd-47f5-a0bf-8535da774104___RS_HL 5408.JPG,Potato,unknown,Tomato,0.9574686884880066,False
+data/raw/Potato___healthy/dbe4f332-9189-4b76-b30c-f0c9a55e48d3___RS_HL 1841.JPG,Potato,unknown,Tomato,0.9744925498962402,False
+data/raw/Potato___healthy/dca8ac5c-b925-435a-a5e9-da09fa8938a1___RS_HL 4182.JPG,Potato,unknown,Tomato,0.9969848990440369,True
+data/raw/Potato___healthy/de9a8669-d437-40f0-aa56-fe2d8276a1e0___RS_HL 1910.JPG,Potato,unknown,Apple,0.5810190439224243,False
+data/raw/Potato___healthy/e1b49d1b-165b-4f4e-8a30-735e62bc39c5___RS_HL 1839.JPG,Potato,unknown,Tomato,0.9974774718284607,True
+data/raw/Potato___healthy/e34e563f-7a4a-4b44-bdf2-b6f96cbcd929___RS_HL 5370.JPG,Potato,unknown,Apple,0.9200456142425537,False
+data/raw/Potato___healthy/e51367c1-d582-45e3-acf6-b0e652b43d3a___RS_HL 1873.JPG,Potato,unknown,Tomato,0.9211301803588867,False
+data/raw/Potato___healthy/e693354a-053c-4093-8642-cc8f5f9eb2cc___RS_HL 1746.JPG,Potato,unknown,Tomato,0.9983841180801392,True
+data/raw/Potato___healthy/ec6e43d3-512d-4908-99f2-c9e2a0be54be___RS_HL 4202.JPG,Potato,unknown,Apple,0.9950703382492065,True
+data/raw/Potato___healthy/ee052892-e935-4fbb-9344-4d23c57c6890___RS_HL 5400.JPG,Potato,unknown,Apple,0.8116610646247864,False
+data/raw/Potato___healthy/ef7005dc-1d44-412e-b858-145a2d7a6fa9___RS_HL 1951.JPG,Potato,unknown,Tomato,0.9868260025978088,False
+data/raw/Potato___healthy/f0036dfd-9f46-4f2f-9001-5973495f2171___RS_HL 1849.JPG,Potato,unknown,Tomato,0.9703922271728516,False
+data/raw/Potato___healthy/f0fdde26-78b4-46f0-9eb8-7c2a743d34aa___RS_HL 4165.JPG,Potato,unknown,Apple,0.9993237257003784,True
+data/raw/Potato___healthy/f30983c0-6e20-43cc-8672-4622ca34c830___RS_HL 1949.JPG,Potato,unknown,Tomato,0.9982580542564392,True
+data/raw/Potato___healthy/f4b5ec24-d318-4309-8294-9126450d5d7f___RS_HL 1824.JPG,Potato,unknown,Tomato,0.9950154423713684,True
+data/raw/Potato___healthy/f4be3632-42a1-415a-9f7e-1d5ecb9f49d7___RS_HL 1783.JPG,Potato,unknown,Apple,0.9606716632843018,False
+data/raw/Potato___healthy/f5bd2732-197b-4d8e-bb50-a4966dc416f5___RS_HL 1840.JPG,Potato,unknown,Tomato,0.9999581575393677,True
+data/raw/Potato___healthy/f66af6c0-6fc6-4020-b1de-a73685d497c2___RS_HL 4181.JPG,Potato,unknown,Tomato,0.916072428226471,False
+data/raw/Potato___healthy/fd92bd9c-02cb-4599-8673-9316159504a1___RS_HL 1927.JPG,Potato,unknown,Tomato,0.6634497046470642,False
+data/raw/Potato___healthy/ff700844-68ad-4e99-8427-58a39c07f817___RS_HL 1860.JPG,Potato,unknown,Tomato,0.773888111114502,False
+"data/raw/Pepper,_bell___healthy/0119205b-cfac-4322-be37-dcc401fcfa11___JR_HL 8527.JPG",Bell pepper,unknown,Tomato,0.6531999111175537,False
+"data/raw/Pepper,_bell___healthy/01d03cb9-4505-458c-a6dc-648dedccd71a___JR_HL 8474.JPG",Bell pepper,unknown,Tomato,0.9143180847167969,False
+"data/raw/Pepper,_bell___healthy/075e9bdc-4921-440b-948d-83f30151317c___JR_HL 7958.JPG",Bell pepper,unknown,Peach,0.6495206952095032,False
+"data/raw/Pepper,_bell___healthy/08945f1c-9204-48d6-a5b4-bece52a18909___JR_HL 8056.JPG",Bell pepper,unknown,Peach,0.8941030502319336,False
+"data/raw/Pepper,_bell___healthy/0eeb924f-88db-44e6-a278-e016fa2d25a4___JR_HL 8016.JPG",Bell pepper,unknown,Peach,0.9877497553825378,False
+"data/raw/Pepper,_bell___healthy/10976831-4c21-447e-b738-e46a2c84ef70___JR_HL 5813.JPG",Bell pepper,unknown,Apple,0.8490556478500366,False
+"data/raw/Pepper,_bell___healthy/110e0412-89b7-4ecc-8650-24f34bae2849___JR_HL 8305.JPG",Bell pepper,unknown,Peach,0.846015453338623,False
+"data/raw/Pepper,_bell___healthy/12e9c594-51a9-4be4-b607-1eef80c14dbf___JR_HL 7830.JPG",Bell pepper,unknown,Peach,0.667133629322052,False
+"data/raw/Pepper,_bell___healthy/147582b1-0d36-4409-8810-1fd5d4304388___JR_HL 5977.JPG",Bell pepper,unknown,Peach,0.9904497265815735,True
+"data/raw/Pepper,_bell___healthy/1645432a-a297-430d-aace-13e2ba91e36e___JR_HL 8840.JPG",Bell pepper,unknown,Peach,0.5179093480110168,False
+"data/raw/Pepper,_bell___healthy/173f3720-282c-4c32-a63a-bd239d06a0fe___JR_HL 8664.JPG",Bell pepper,unknown,Apple,0.9357802271842957,False
+"data/raw/Pepper,_bell___healthy/19094b2f-e170-4634-967e-31a6cf77c46b___JR_HL 8682.JPG",Bell pepper,unknown,Tomato,0.999852180480957,True
+"data/raw/Pepper,_bell___healthy/1a482d0c-d3a9-4e79-b412-f2288dc5067f___JR_HL 5852.JPG",Bell pepper,unknown,Apple,0.49993711709976196,False
+"data/raw/Pepper,_bell___healthy/1a629a1c-1000-48ce-a7d8-2064aa7e24ae___JR_HL 6001.JPG",Bell pepper,unknown,Apple,0.7884481549263,False
+"data/raw/Pepper,_bell___healthy/1aaaa11e-ec45-4d6d-ab7f-1d3ea053d14d___JR_HL 5937.JPG",Bell pepper,unknown,Peach,0.9163062572479248,False
+"data/raw/Pepper,_bell___healthy/1b4b5b1f-9390-46c5-908a-d53b93059f5d___JR_HL 8379.JPG",Bell pepper,unknown,Peach,0.9002251625061035,False
+"data/raw/Pepper,_bell___healthy/1c043016-2d55-444d-a379-4a2aafc41a32___JR_HL 7909.JPG",Bell pepper,unknown,Apple,0.5787021517753601,False
+"data/raw/Pepper,_bell___healthy/1c41486f-bb0d-4808-b980-9fa4739f2ad3___JR_HL 8459.JPG",Bell pepper,unknown,Tomato,0.9995999932289124,True
+"data/raw/Pepper,_bell___healthy/1c665f14-938a-4563-8613-031a2cb04453___JR_HL 5815.JPG",Bell pepper,unknown,Apple,0.9465709924697876,False
+"data/raw/Pepper,_bell___healthy/1daf2391-f049-4e01-b229-ffd7c00a1b73___JR_HL 8119.JPG",Bell pepper,unknown,Tomato,0.7543815970420837,False
+"data/raw/Pepper,_bell___healthy/1e9de601-8ffb-42cd-b7ab-79b35f87acfc___JR_HL 8732.JPG",Bell pepper,unknown,Tomato,0.755840003490448,False
+"data/raw/Pepper,_bell___healthy/1f12962f-8c78-44dd-a2fc-fac013a76475___JR_HL 8489.JPG",Bell pepper,unknown,Peach,0.8066852688789368,False
+"data/raw/Pepper,_bell___healthy/24eb97a4-6671-48dd-96f7-3f2c86e80e21___JR_HL 5928.JPG",Bell pepper,unknown,Tomato,0.9822847843170166,False
+"data/raw/Pepper,_bell___healthy/25586e4c-0cba-4db9-8bab-4a6353f097e9___JR_HL 8335.JPG",Bell pepper,unknown,Tomato,0.47587960958480835,False
+"data/raw/Pepper,_bell___healthy/26eac7c9-e388-4110-b3c6-aaaebd7b0d8e___JR_HL 8566.JPG",Bell pepper,unknown,Tomato,0.9404789805412292,False
+"data/raw/Pepper,_bell___healthy/27a57823-95ed-4619-ac8c-25270fd0b030___JR_HL 7630.JPG",Bell pepper,unknown,Tomato,0.9736513495445251,False
+"data/raw/Pepper,_bell___healthy/2a5fb2e8-b104-438e-9b40-822c3e01d3fb___JR_HL 8247.JPG",Bell pepper,unknown,Peach,0.804766058921814,False
+"data/raw/Pepper,_bell___healthy/2bd72641-4eea-4cf4-99b4-37815f06f096___JR_HL 5984.JPG",Bell pepper,unknown,Tomato,0.8579148054122925,False
+"data/raw/Pepper,_bell___healthy/2c8dc060-822b-4027-afb0-ed2284ff471b___JR_HL 8800.JPG",Bell pepper,unknown,Apple,0.6226980090141296,False
+"data/raw/Pepper,_bell___healthy/2e28e6a0-2e0b-4284-a9f5-74e5dfac142d___JR_HL 8451.JPG",Bell pepper,unknown,Apple,0.5631211996078491,False
+"data/raw/Pepper,_bell___healthy/2e9037ac-b030-4837-bf2f-56b89c4b66bf___JR_HL 7603.JPG",Bell pepper,unknown,Peach,0.595458447933197,False
+"data/raw/Pepper,_bell___healthy/35bac1bd-0af2-45ad-a1c0-4b19dc070240___JR_HL 7950.JPG",Bell pepper,unknown,Peach,0.9775780439376831,False
+"data/raw/Pepper,_bell___healthy/36e6c861-dfbe-4452-bb94-be96ad479290___JR_HL 8086.JPG",Bell pepper,unknown,Peach,0.8231463432312012,False
+"data/raw/Pepper,_bell___healthy/37507496-06e8-484e-b389-aa3bfed56be1___JR_HL 5935.JPG",Bell pepper,unknown,Apple,0.49684831500053406,False
+"data/raw/Pepper,_bell___healthy/3ede2904-b21a-4b6a-940b-062c21ff71fa___JR_HL 7613.JPG",Bell pepper,unknown,Tomato,0.5225918889045715,False
+"data/raw/Pepper,_bell___healthy/41b94c99-7063-42dc-9ce7-22ff087317e9___JR_HL 7696.JPG",Bell pepper,unknown,Tomato,0.5950665473937988,False
+"data/raw/Pepper,_bell___healthy/44d816b4-561d-4b73-be20-be408093c5fa___JR_HL 8077.JPG",Bell pepper,unknown,Peach,0.7746870517730713,False
+"data/raw/Pepper,_bell___healthy/47640adf-fab7-4b61-9f88-93591162cfc9___JR_HL 7995.JPG",Bell pepper,unknown,Tomato,0.951586902141571,False
+"data/raw/Pepper,_bell___healthy/47c2ad4e-4eca-4597-9784-c3d99444bf29___JR_HL 8450.JPG",Bell pepper,unknown,Peach,0.9191392660140991,False
+"data/raw/Pepper,_bell___healthy/493523c6-c658-4c8f-bc8c-0ac673d396c7___JR_HL 7662.JPG",Bell pepper,unknown,Apple,0.8846734166145325,False
+"data/raw/Pepper,_bell___healthy/4a72152d-9d9e-446a-8757-3ad7b3178dde___JR_HL 8091.JPG",Bell pepper,unknown,Peach,0.9300116896629333,False
+"data/raw/Pepper,_bell___healthy/4b7612c8-8f1c-4cdf-a4bb-2a9d266daa91___JR_HL 8852.JPG",Bell pepper,unknown,Tomato,0.8395334482192993,False
+"data/raw/Pepper,_bell___healthy/508ca47c-f3f9-4e1e-a9e8-759de2d45471___JR_HL 8678.JPG",Bell pepper,unknown,Tomato,0.9520650506019592,False
+"data/raw/Pepper,_bell___healthy/512c1e86-ac5e-41dd-9791-c00fb4ca866d___JR_HL 8703.JPG",Bell pepper,unknown,Tomato,0.9994959831237793,True
+"data/raw/Pepper,_bell___healthy/53339b41-66f9-4fea-8b87-acd5f341a0c3___JR_HL 5946.JPG",Bell pepper,unknown,Apple,0.8286032676696777,False
+"data/raw/Pepper,_bell___healthy/539a80a0-ec5a-4cb7-9f97-fb2f4bf18795___JR_HL 8344.JPG",Bell pepper,unknown,Tomato,0.6167119741439819,False
+"data/raw/Pepper,_bell___healthy/547251ae-ce0c-423b-8d1f-afec4f2eb7bd___JR_HL 8227.JPG",Bell pepper,unknown,Tomato,0.5974192023277283,False
+"data/raw/Pepper,_bell___healthy/55051c53-aa0b-4984-85ca-e3c3fcf75e70___JR_HL 7661.JPG",Bell pepper,unknown,Peach,0.7478217482566833,False
+"data/raw/Pepper,_bell___healthy/565744a9-b6ab-46c2-bc42-f92731c6ff4c___JR_HL 7850.JPG",Bell pepper,unknown,Apple,0.9714023470878601,False
+"data/raw/Pepper,_bell___healthy/566dce25-a478-4995-b7be-08ff6f130703___JR_HL 8558.JPG",Bell pepper,unknown,Apple,0.9728522300720215,False
+"data/raw/Pepper,_bell___healthy/57205d1c-04ed-4af8-a011-8b1beabb8295___JR_HL 5845.JPG",Bell pepper,unknown,Apple,0.9667325615882874,False
+"data/raw/Pepper,_bell___healthy/573a1adf-4134-43f4-919c-939c0bb9a8da___JR_HL 7847.JPG",Bell pepper,unknown,Apple,0.9980466365814209,True
+"data/raw/Pepper,_bell___healthy/5c7dc582-9234-4b2b-88d8-0ece8dd19a80___JR_HL 8585.JPG",Bell pepper,unknown,Peach,0.8723621368408203,False
+"data/raw/Pepper,_bell___healthy/5f11a48a-467f-4639-adcb-f7189c669a5f___JR_HL 8348.JPG",Bell pepper,unknown,Peach,0.9522071480751038,False
+"data/raw/Pepper,_bell___healthy/5fb4892e-0745-4492-b26c-74508c60cb28___JR_HL 7973.JPG",Bell pepper,unknown,Peach,0.9994763731956482,True
+"data/raw/Pepper,_bell___healthy/615f1ae8-e24a-467c-93eb-c4dd352e3f50___JR_HL 7767.JPG",Bell pepper,unknown,Apple,0.9690061807632446,False
+"data/raw/Pepper,_bell___healthy/66b13c76-6f77-49c1-b286-717d26dc7fbc___JR_HL 7873.JPG",Bell pepper,unknown,Tomato,0.8257121443748474,False
+"data/raw/Pepper,_bell___healthy/68400266-7c53-4634-9c25-df95c062e201___JR_HL 7716.JPG",Bell pepper,unknown,Peach,0.6311302185058594,False
+"data/raw/Pepper,_bell___healthy/68a8b022-1f2d-4546-957f-a69aa11f0e39___JR_HL 8122.JPG",Bell pepper,unknown,Apple,0.6223985552787781,False
+"data/raw/Pepper,_bell___healthy/6a3603ae-fc95-48ee-968f-2afcca4a1a6a___JR_HL 7979.JPG",Bell pepper,unknown,Peach,0.9411690831184387,False
+"data/raw/Pepper,_bell___healthy/6ca296db-0f5c-4002-bbb9-ef4a4d60aea7___JR_HL 5847.JPG",Bell pepper,unknown,Apple,0.9229680895805359,False
+"data/raw/Pepper,_bell___healthy/70ca0253-15fc-4525-8a78-65c813bd2992___JR_HL 7807.JPG",Bell pepper,unknown,Peach,0.8890578150749207,False
+"data/raw/Pepper,_bell___healthy/7396426f-841d-48c1-ab42-7b2578d098ee___JR_HL 8271.JPG",Bell pepper,unknown,Peach,0.8612244725227356,False
+"data/raw/Pepper,_bell___healthy/78d6d5a4-9e5b-424d-890b-1893a4c4fba4___JR_HL 7930.JPG",Bell pepper,unknown,Tomato,0.8513718843460083,False
+"data/raw/Pepper,_bell___healthy/798a2172-62e6-4fbe-9dd2-a989294ab501___JR_HL 7845.JPG",Bell pepper,unknown,Apple,0.9954572916030884,True
+"data/raw/Pepper,_bell___healthy/79b1f325-0bdf-45b4-a38f-4132ddf70f6d___JR_HL 8357.JPG",Bell pepper,unknown,Tomato,0.6669468283653259,False
+"data/raw/Pepper,_bell___healthy/7aea3352-7adf-4aa2-af64-3bf1f971ae35___JR_HL 8883.JPG",Bell pepper,unknown,Peach,0.800032913684845,False
+"data/raw/Pepper,_bell___healthy/7b6f5f09-cea5-4b1c-91c7-18207527c837___JR_HL 8652.JPG",Bell pepper,unknown,Apple,0.9468865394592285,False
+"data/raw/Pepper,_bell___healthy/7b8ed1cd-a4ed-4808-9c0b-f788103099f0___JR_HL 8494.JPG",Bell pepper,unknown,Tomato,0.9694070816040039,False
+"data/raw/Pepper,_bell___healthy/7ba402d0-65f1-4baf-b3b1-c32700159770___JR_HL 8118.JPG",Bell pepper,unknown,Peach,0.5865931510925293,False
+"data/raw/Pepper,_bell___healthy/7c36055a-505d-4fd3-9b2f-d165f1324a92___JR_HL 8265.JPG",Bell pepper,unknown,Tomato,0.8482204675674438,False
+"data/raw/Pepper,_bell___healthy/7ff5acb3-8ef2-41f4-a7cf-795192bf4d37___JR_HL 8332.JPG",Bell pepper,unknown,Tomato,0.9953407049179077,True
+"data/raw/Pepper,_bell___healthy/843ef0a7-5eed-45b5-98b4-4c2fc94084cf___JR_HL 7922.JPG",Bell pepper,unknown,Peach,0.6311286091804504,False
+"data/raw/Pepper,_bell___healthy/87483ac6-8115-4d93-82ad-fbcaeca4a688___JR_HL 8211.JPG",Bell pepper,unknown,Peach,0.8689202070236206,False
+"data/raw/Pepper,_bell___healthy/880150d7-bc9d-46bf-a91c-d7fcacbc1e50___JR_HL 5869.JPG",Bell pepper,unknown,Apple,0.8256254196166992,False
+"data/raw/Pepper,_bell___healthy/890ec9d5-8497-4984-b149-b29bc683b838___JR_HL 7615.JPG",Bell pepper,unknown,Tomato,0.6950095295906067,False
+"data/raw/Pepper,_bell___healthy/89c4dbbc-4d4c-4074-9eaa-c4f8beafeb14___JR_HL 7796.JPG",Bell pepper,unknown,Apple,0.530014157295227,False
+"data/raw/Pepper,_bell___healthy/8a2881b1-f331-442d-9c3b-95695b020909___JR_HL 8557.JPG",Bell pepper,unknown,Apple,0.9988872408866882,True
+"data/raw/Pepper,_bell___healthy/8a3c1599-aee5-477c-b693-e1ccd68343c4___JR_HL 8644.JPG",Bell pepper,unknown,Apple,0.6868250370025635,False
+"data/raw/Pepper,_bell___healthy/8ba97ec7-5e91-4850-8e87-fe0aaa18aaaf___JR_HL 8058.JPG",Bell pepper,unknown,Peach,0.9838751554489136,False
+"data/raw/Pepper,_bell___healthy/8bfac003-63b0-4c5a-a4b6-09ba08e90b6a___JR_HL 8282.JPG",Bell pepper,unknown,Tomato,0.7895535230636597,False
+"data/raw/Pepper,_bell___healthy/9033b45d-677a-42ae-b48b-5101ed8b9b7a___JR_HL 8306.JPG",Bell pepper,unknown,Peach,0.9614070057868958,False
+"data/raw/Pepper,_bell___healthy/90e48fa5-fa6d-4408-84db-cc5a53315b1f___JR_HL 7902.JPG",Bell pepper,unknown,Tomato,0.9969192743301392,True
+"data/raw/Pepper,_bell___healthy/91310cb0-97cf-4d2d-88c2-c4ea77de4442___JR_HL 5947.JPG",Bell pepper,unknown,Apple,0.9932870268821716,True
+"data/raw/Pepper,_bell___healthy/9178dc46-0a7b-460a-9f22-094275a54b5e___JR_HL 5861.JPG",Bell pepper,unknown,Apple,0.9400727152824402,False
+"data/raw/Pepper,_bell___healthy/95c1d651-27ca-49cd-95f9-fa7a42a14d49___JR_HL 8221.JPG",Bell pepper,unknown,Peach,0.7764157056808472,False
+"data/raw/Pepper,_bell___healthy/95c8741a-b5a8-4e49-baad-2015bcaf5c3f___JR_HL 5811.JPG",Bell pepper,unknown,Apple,0.5856550931930542,False
+"data/raw/Pepper,_bell___healthy/96922028-c5d6-4053-9b0d-90b64a00e5aa___JR_HL 8057.JPG",Bell pepper,unknown,Peach,0.924204409122467,False
+"data/raw/Pepper,_bell___healthy/9915883a-fcc4-457a-bcc3-404fd25ba386___JR_HL 7605.JPG",Bell pepper,unknown,Apple,0.984980046749115,False
+"data/raw/Pepper,_bell___healthy/9993c341-5a73-4ad2-ae78-2ea7d3c1ccf7___JR_HL 7710.JPG",Bell pepper,unknown,Tomato,0.9941145777702332,True
+"data/raw/Pepper,_bell___healthy/99c4f6c3-3aac-45a6-aefa-7711862d7b02___JR_HL 5983.JPG",Bell pepper,unknown,Tomato,0.999005138874054,True
+"data/raw/Pepper,_bell___healthy/9c949d87-f2fb-4b21-9648-69ba51f7a9b9___JR_HL 7948.JPG",Bell pepper,unknown,Peach,0.616065263748169,False
+"data/raw/Pepper,_bell___healthy/9cde7a11-a044-4ca6-b1f1-4507b867f915___JR_HL 8580.JPG",Bell pepper,unknown,Peach,0.6090962290763855,False
+"data/raw/Pepper,_bell___healthy/9cefa2ea-236f-442b-85d1-7bdd7e651039___JR_HL 7628.JPG",Bell pepper,unknown,Tomato,0.9403336048126221,False
+"data/raw/Pepper,_bell___healthy/a4e150f2-9b5c-4b2c-9b8b-775d132a03b4___JR_HL 8299.JPG",Bell pepper,unknown,Peach,0.7936941981315613,False
+"data/raw/Pepper,_bell___healthy/a558bc8d-6d5b-42d0-b9b5-c3cb34d60b54___JR_HL 8583.JPG",Bell pepper,unknown,Tomato,0.9640457034111023,False
+"data/raw/Pepper,_bell___healthy/a8758911-2b5a-4383-9636-1e90d33c90a4___JR_HL 7991.JPG",Bell pepper,unknown,Tomato,0.7524674534797668,False
+"data/raw/Pepper,_bell___healthy/a88c2d89-062f-45bb-9388-4cea9920132b___JR_HL 7939.JPG",Bell pepper,unknown,Peach,0.9983067512512207,True
+"data/raw/Pepper,_bell___healthy/aa8464ce-ba3c-4c40-8e3f-75b0ef3658bd___JR_HL 6005.JPG",Bell pepper,unknown,Peach,0.7379084229469299,False
+"data/raw/Pepper,_bell___healthy/ab24c144-5ee4-4f56-b67c-1fc25475dfe0___JR_HL 8173.JPG",Bell pepper,unknown,Peach,0.8320151567459106,False
+"data/raw/Pepper,_bell___healthy/ab275c68-52f9-4e4d-93de-5df1b7864b8d___JR_HL 8461.JPG",Bell pepper,unknown,Tomato,0.7542723417282104,False
+"data/raw/Pepper,_bell___healthy/acfdebad-66f9-4f9d-b302-55fd79345b2a___JR_HL 8672.JPG",Bell pepper,unknown,Apple,0.7615136504173279,False
+"data/raw/Pepper,_bell___healthy/ad1303c4-8c71-484d-aa80-2f43e8cce03d___JR_HL 8207.JPG",Bell pepper,unknown,Peach,0.8535512685775757,False
+"data/raw/Pepper,_bell___healthy/ad4ccae1-2313-4ca6-9486-88caef4bd7ba___JR_HL 8603.JPG",Bell pepper,unknown,Apple,0.8611214756965637,False
+"data/raw/Pepper,_bell___healthy/af1d3ef3-5ef6-4d74-8042-b126880c1781___JR_HL 5986.JPG",Bell pepper,unknown,Peach,0.807876467704773,False
+"data/raw/Pepper,_bell___healthy/b08cb3cc-a9b8-43ec-9966-39b8a6e1a0af___JR_HL 8423.JPG",Bell pepper,unknown,Tomato,0.8926679491996765,False
+"data/raw/Pepper,_bell___healthy/b3025d7b-862b-4ec3-9724-982a12e305e5___JR_HL 7804.JPG",Bell pepper,unknown,Peach,0.8182177543640137,False
+"data/raw/Pepper,_bell___healthy/b441b774-75eb-41ca-b03c-5f9672747a1e___JR_HL 8792.JPG",Bell pepper,unknown,Tomato,0.8833022713661194,False
+"data/raw/Pepper,_bell___healthy/b57eb9c4-59e7-4fc7-88e4-c9827304d118___JR_HL 8802.JPG",Bell pepper,unknown,Peach,0.7552172541618347,False
+"data/raw/Pepper,_bell___healthy/b7d4bf27-7ed1-4ba3-9b4b-8c9a8f19c4ee___JR_HL 8653.JPG",Bell pepper,unknown,Apple,0.9945857524871826,True
+"data/raw/Pepper,_bell___healthy/b8ea8f49-ab54-4282-81f4-7d1497b4f818___JR_HL 5949.JPG",Bell pepper,unknown,Apple,0.992427408695221,True
+"data/raw/Pepper,_bell___healthy/bb82f621-0b32-4fef-bb8f-9d44737e65d3___JR_HL 7619.JPG",Bell pepper,unknown,Peach,0.7654849290847778,False
+"data/raw/Pepper,_bell___healthy/bfb98507-e9bb-4df4-895c-0a58fbcb7ed8___JR_HL 8391.JPG",Bell pepper,unknown,Peach,0.9810529351234436,False
+"data/raw/Pepper,_bell___healthy/c2bb8562-98b3-4364-87c6-39c80e3d5219___JR_HL 8185.JPG",Bell pepper,unknown,Peach,0.9328681826591492,False
+"data/raw/Pepper,_bell___healthy/c2f95f90-fac7-42e5-b6dd-789f8f2a50d9___JR_HL 8567.JPG",Bell pepper,unknown,Tomato,0.729325532913208,False
+"data/raw/Pepper,_bell___healthy/c40b6a46-5181-43ad-a27d-7e68fcd20f87___JR_HL 8553.JPG",Bell pepper,unknown,Apple,0.894152045249939,False
+"data/raw/Pepper,_bell___healthy/c7cf9ebb-758a-4179-a054-2f8d9faf8455___JR_HL 8311.JPG",Bell pepper,unknown,Tomato,0.967315137386322,False
+"data/raw/Pepper,_bell___healthy/c86292c5-5f49-498d-9339-5f8d5d0b7492___JR_HL 7821.JPG",Bell pepper,unknown,Tomato,0.7815892100334167,False
+"data/raw/Pepper,_bell___healthy/c8c24f99-957d-4711-92b5-37520cabb5d3___JR_HL 8023.JPG",Bell pepper,unknown,Peach,0.5316725969314575,False
+"data/raw/Pepper,_bell___healthy/ca8ef249-eb56-438f-acf0-17e0104b16ec___JR_HL 8231.JPG",Bell pepper,unknown,Peach,0.9301718473434448,False
+"data/raw/Pepper,_bell___healthy/cdad1237-5d1e-46e8-a5fc-b0514aa994ab___JR_HL 8680.JPG",Bell pepper,unknown,Tomato,0.9901872277259827,True
+"data/raw/Pepper,_bell___healthy/cf4a0192-99ce-403f-8198-258027747788___JR_HL 7732.JPG",Bell pepper,unknown,Apple,0.6729503870010376,False
+"data/raw/Pepper,_bell___healthy/cf60c064-02f6-4d1e-afa6-f8a18b1576d5___JR_HL 7582.JPG",Bell pepper,unknown,Tomato,0.9943999648094177,True
+"data/raw/Pepper,_bell___healthy/cf940691-feea-41e4-95e6-9eb77af713d4___JR_HL 8439.JPG",Bell pepper,unknown,Peach,0.5070160031318665,False
+"data/raw/Pepper,_bell___healthy/d17a8519-e2c2-4589-afdb-592063af49cf___JR_HL 8369.JPG",Bell pepper,unknown,Tomato,0.7678900957107544,False
+"data/raw/Pepper,_bell___healthy/d5c1285f-07eb-447c-b606-ff6c9d1398ad___JR_HL 8263.JPG",Bell pepper,unknown,Tomato,0.7737039923667908,False
+"data/raw/Pepper,_bell___healthy/d5fe578c-f2b2-49d1-b2ba-5b3a09248777___JR_HL 8765.JPG",Bell pepper,unknown,Tomato,0.8475056886672974,False
+"data/raw/Pepper,_bell___healthy/d66b5be2-52c2-41f5-bc30-c82b9f4a9bd5___JR_HL 8274.JPG",Bell pepper,unknown,Peach,0.9136893153190613,False
+"data/raw/Pepper,_bell___healthy/d72022b9-78bc-496c-900d-f716012c047b___JR_HL 8072.JPG",Bell pepper,unknown,Tomato,0.9071613550186157,False
+"data/raw/Pepper,_bell___healthy/d97b0635-c850-4406-b2d0-3217511b496c___JR_HL 8719.JPG",Bell pepper,unknown,Apple,0.9799907207489014,False
+"data/raw/Pepper,_bell___healthy/d981e524-b82f-4e06-911f-01964192e36f___JR_HL 5914.JPG",Bell pepper,unknown,Tomato,0.7520886063575745,False
+"data/raw/Pepper,_bell___healthy/dae7bb76-d1f1-4f3e-8a07-143990c11ea1___JR_HL 8555.JPG",Bell pepper,unknown,Apple,0.9816890954971313,False
+"data/raw/Pepper,_bell___healthy/dbb6495b-0765-4d94-afad-6020819aa893___JR_HL 8233.JPG",Bell pepper,unknown,Peach,0.5699455738067627,False
+"data/raw/Pepper,_bell___healthy/dcec6b1e-d2b9-4f53-b10d-9906ab9e2c47___JR_HL 8317.JPG",Bell pepper,unknown,Tomato,0.9985957741737366,True
+"data/raw/Pepper,_bell___healthy/ddf09dc7-034d-45c1-9a55-c8e09f87e5ed___JR_HL 8416.JPG",Bell pepper,unknown,Peach,0.6139959096908569,False
+"data/raw/Pepper,_bell___healthy/df451c9c-6b43-4ed7-9f21-9df981439c8e___JR_HL 8253.JPG",Bell pepper,unknown,Apple,0.8495358228683472,False
+"data/raw/Pepper,_bell___healthy/e0d0a755-6ed0-4cf1-b35d-87547f87a17a___JR_HL 8565.JPG",Bell pepper,unknown,Peach,0.8140079975128174,False
+"data/raw/Pepper,_bell___healthy/e64cc93e-5968-4cec-9ded-9dd9c0ae4ae1___JR_HL 8518.JPG",Bell pepper,unknown,Apple,0.573119580745697,False
+"data/raw/Pepper,_bell___healthy/eb92da7b-8c89-4353-958c-960fd5917d9f___JR_HL 7900.JPG",Bell pepper,unknown,Tomato,0.5435338020324707,False
+"data/raw/Pepper,_bell___healthy/ebabe289-fbfb-47a1-a8a6-e3ea7fc409d7___JR_HL 8189.JPG",Bell pepper,unknown,Tomato,0.9958524703979492,True
+"data/raw/Pepper,_bell___healthy/ebf34e5a-adb5-4cef-b916-793f09b7314b___JR_HL 8171.JPG",Bell pepper,unknown,Peach,0.9676198363304138,False
+"data/raw/Pepper,_bell___healthy/ee42aa43-86bf-418d-8716-3cc8c710a0b3___JR_HL 8337.JPG",Bell pepper,unknown,Apple,0.7519885897636414,False
+"data/raw/Pepper,_bell___healthy/f170473e-77b2-4b80-94bf-9479622bac75___JR_HL 8381.JPG",Bell pepper,unknown,Tomato,0.9914884567260742,True
+"data/raw/Pepper,_bell___healthy/f457076f-aab1-496e-a4d8-9fefb1af279a___JR_HL 8754.JPG",Bell pepper,unknown,Peach,0.6125800013542175,False
+"data/raw/Pepper,_bell___healthy/f48132e5-5e78-471e-ab16-e1ff06aa13f3___JR_HL 8446.JPG",Bell pepper,unknown,Peach,0.9934136271476746,True
+"data/raw/Pepper,_bell___healthy/f61b245c-cfa1-4505-b91b-c318de0c42a7___JR_HL 8625.JPG",Bell pepper,unknown,Tomato,0.7804170846939087,False
+"data/raw/Pepper,_bell___healthy/f63db177-4ffc-421f-b164-48f6a22dd14a___JR_HL 8169.JPG",Bell pepper,unknown,Peach,0.9895765781402588,False
+"data/raw/Pepper,_bell___healthy/fa865ee2-c3b8-45ac-b845-1dead949a24a___JR_HL 5818.JPG",Bell pepper,unknown,Apple,0.8444764018058777,False
+"data/raw/Pepper,_bell___healthy/fc18f16b-d707-4811-ad96-445590b4346f___JR_HL 5870.JPG",Bell pepper,unknown,Apple,0.6335884928703308,False
+"data/raw/Pepper,_bell___healthy/fed15b37-0129-4436-a832-d98d9f446f9a___JR_HL 8437.JPG",Bell pepper,unknown,Peach,0.9288760423660278,False

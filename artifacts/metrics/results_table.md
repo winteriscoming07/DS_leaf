@@ -1,0 +1,3 @@
+            Model  Threshold  Known acc  Known macro-F1  Known coverage  False rejection  Acc. on accepted  Unknown rejected  Unknown accepted (FAR)  AUROC (unknown=+)  Pool coverage  Pool risk
+        HOG + SVM      0.564      0.989            0.99           0.984            0.016             0.989              0.13                    0.87              0.775          0.914      0.590
+MobileNetV3-Small      0.990      1.000            1.00           0.947            0.053             1.000              0.73                    0.27              0.948          0.531      0.313

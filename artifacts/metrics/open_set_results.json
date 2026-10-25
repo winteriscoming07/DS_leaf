@@ -1,0 +1,204 @@
+{
+  "hog_svm": {
+    "threshold": 0.5637347060608496,
+    "known_test": {
+      "n": 188,
+      "accuracy": 0.9893617021276596,
+      "macro_f1": 0.9895384615384616,
+      "coverage": 0.9840425531914894,
+      "false_rejection_rate": 0.015957446808510634,
+      "accuracy_on_accepted": 0.9891891891891892
+    },
+    "unknown": {
+      "n": 300,
+      "rejection_rate": 0.13,
+      "false_acceptance_rate": 0.87
+    },
+    "auroc_unknown_positive": 0.7745744680851063,
+    "auroc_per_unknown_species": {
+      "Potato": 0.7189716312056738,
+      "Bell pepper": 0.8301773049645389
+    },
+    "unknown_rejection_per_species": {
+      "Potato": 0.10666666666666669,
+      "Bell pepper": 0.15333333333333332
+    },
+    "combined": {
+      "coverage": 0.9139344262295082,
+      "risk": 0.5896860986547086,
+      "n_known": 188,
+      "n_unknown": 300
+    },
+    "val_acceptance_at_threshold": 0.946524064171123,
+    "per_class": {
+      "Apple": {
+        "precision": 0.95,
+        "recall": 1.0,
+        "f1": 0.9743589743589743,
+        "support": 38
+      },
+      "Corn": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 37
+      },
+      "Grape": {
+        "precision": 1.0,
+        "recall": 0.9736842105263158,
+        "f1": 0.9866666666666667,
+        "support": 38
+      },
+      "Peach": {
+        "precision": 1.0,
+        "recall": 0.9736842105263158,
+        "f1": 0.9866666666666667,
+        "support": 38
+      },
+      "Tomato": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 37
+      }
+    },
+    "confusion_matrix": [
+      [
+        38,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        37,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        37,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        37,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        37
+      ]
+    ]
+  },
+  "mobilenet": {
+    "threshold": 0.9897405505180359,
+    "known_test": {
+      "n": 188,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "coverage": 0.9468085106382979,
+      "false_rejection_rate": 0.05319148936170215,
+      "accuracy_on_accepted": 1.0
+    },
+    "unknown": {
+      "n": 300,
+      "rejection_rate": 0.73,
+      "false_acceptance_rate": 0.27
+    },
+    "auroc_unknown_positive": 0.9475354609929078,
+    "auroc_per_unknown_species": {
+      "Potato": 0.918936170212766,
+      "Bell pepper": 0.9761347517730496
+    },
+    "unknown_rejection_per_species": {
+      "Potato": 0.6066666666666667,
+      "Bell pepper": 0.8533333333333333
+    },
+    "combined": {
+      "coverage": 0.5307377049180327,
+      "risk": 0.3127413127413127,
+      "n_known": 188,
+      "n_unknown": 300
+    },
+    "val_acceptance_at_threshold": 0.946524064171123,
+    "per_class": {
+      "Apple": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 38
+      },
+      "Corn": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 37
+      },
+      "Grape": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 38
+      },
+      "Peach": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 38
+      },
+      "Tomato": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 37
+      }
+    },
+    "confusion_matrix": [
+      [
+        38,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        37,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        38,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        38,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        37
+      ]
+    ]
+  }
+}
