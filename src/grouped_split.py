@@ -1,9 +1,11 @@
 """SENSITIVITY split: frame-block grouping. NOT a specimen-level split.
 
-PlantVillage does not publish physical-leaf IDs. The only identifiers in the file names are
-  * 'GH_HL Leaf <N>[.<k>]'  (100 Tomato images): N looks like a leaf number, used here as a group key;
-  * camera frame numbers ('RS_HL 5672', 'Mt.N.V_HL 6067', ...): consecutive frames MAY show the same leaf, but this is
-    an assumption, not a documented fact.
+This is a HEURISTIC that uses only file-name numbers. Authoritative leaf IDs do exist upstream for some classes
+(src/leafmap.py, split in src/leafmap_split.py) but not for Corn, Grape or Tomato 'GH_HL' files. The file-name identifiers are
+  * 'GH_HL Leaf <N>[.<k>]'  (100 Tomato images): N looks like a leaf number but is NOT in any upstream sheet (unverified);
+  * camera frame numbers ('RS_HL 5672', 'Mt.N.V_HL 6067', ...): in the classes with authoritative IDs, Leaf # never decreases as the
+    frame number rises and leaves occupy contiguous frame runs, so numbering follows acquisition order there. For Corn and Grape this
+    cannot be verified and is an assumption.
 This module keeps frame-adjacent images together (blocks of `block` frames) and then drops images that are within
 `guard` frames of an image in a different split, so every cross-split pair is >= guard+1 frames apart. It is a
 robustness check against the *possibility* of near-same-leaf overlap; it cannot prove specimen independence.

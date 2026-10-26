@@ -26,7 +26,7 @@ Both models classify the five known species almost perfectly; the difference is 
 Even the better model wrongly accepts about a quarter of unknown leaves (Potato is harder to reject than Bell pepper).
 Figures: `artifacts/figures/`. Metrics: `artifacts/metrics/`. These numbers were independently recomputed from the saved predictions during the final audit. MobileNet accuracy has an exact 95% interval of 0.981–1.000 (the percentile bootstrap degenerates to [1, 1]).
 
-**Caveat on leakage.** PlantVillage has no physical-leaf IDs, so the image-level split may place photographs of the same leaf in train and test. A retrained frame-block sensitivity split (`artifacts/variant_blockwise/`) gives somewhat lower numbers (MobileNet unknown rejection 0.66, AUROC 0.919; HOG+SVM known accuracy 0.957) with the same conclusions; see `reports/final_audit.md`. Results are from controlled lab-style images and do not establish field performance.
+**Caveat on leakage (verified).** The primary split is image-level, and the PlantVillage authors' leaf-count sheets (preserved in `data/leaf_maps/`, upstream commit `7f7ecc7e`) show that it puts the *same physical leaf* in train and test: every one of the 38 Peach test images, 24 of 38 Apple and 9 of 25 mapped Tomato test images have a training photo of the same leaf. Leaf IDs exist for Apple, Peach, Tomato (150 of 250 images), Potato and Bell pepper but **not for Corn, Grape or 100 Tomato images**, so a fully leaf-independent split is not possible. A retrained hybrid split (`artifacts/variant_leafmap/`: whole leaves where IDs exist, a frame-block heuristic elsewhere) gives, for MobileNet, accuracy 0.995, AUROC 0.898 (primary 0.948), known false rejection 0.113 (0.053), unknown rejection 0.733 (0.730); for HOG+SVM, accuracy 0.957 (0.989). Conclusions are unchanged, but the primary numbers should be read as optimistic by an unknown amount, and a lower score alone does not prove leakage. Details: `reports/final_audit.md` §2. Results are from controlled lab-style images and do not establish field performance.
 
 ## Setup
 
@@ -67,16 +67,23 @@ $PY -m src.train_mobilenet    # MobileNetV3-Small (downloads ImageNet weights) -
 $PY -m src.evaluate           # threshold from val, open-set metrics, all figures
 $PY -m src.stress_test        # optional synthetic brightness/blur test
 $PY -m src.bootstrap_ci       # optional 95% bootstrap + exact binomial CIs
-$PY -m pytest -q              # 21 tests
+$PY -m pytest -q              # 30 tests
 ```
 
-Leakage sensitivity experiment (separate outputs; the primary results are not touched):
+Leakage sensitivity experiments (separate outputs; the primary results are not touched):
 ```bash
 $PY -m src.grouped_split                                  # data/metadata_blockwise.csv (frame-block split + guard band)
 export LEAF_VARIANT=blockwise                             # redirects every script below to artifacts/variant_blockwise/
 $PY -m src.train_baseline && $PY -m src.train_mobilenet && $PY -m src.evaluate && $PY -m src.bootstrap_ci
 unset LEAF_VARIANT
-$PY -m src.leakage_audit                                  # leakage_audit.json, split_sensitivity.md, frame_neighbours.png
+
+# Hybrid split using the authors' leaf IDs where they exist (data/leaf_maps/, no download needed)
+$PY -m src.leafmap_split                                  # data/metadata_leafmap.csv
+export LEAF_VARIANT=leafmap
+$PY -m src.train_baseline && $PY -m src.train_mobilenet && $PY -m src.evaluate && $PY -m src.bootstrap_ci
+unset LEAF_VARIANT
+$PY -m src.leafmap_audit                                  # leafmap_audit.json/.md: coverage, crossings, leaf-clustered bootstrap
+$PY -m src.leakage_audit                                  # split_sensitivity.md (3 splits), frame_neighbours.png
 ```
 
 Notebook (loads saved outputs, no retraining; assertions compare recomputed and saved metrics):
@@ -99,7 +106,7 @@ Rejection is a confidence-based safeguard, not proof that a plant is botanically
 - Folder → label map: Apple=`Apple___healthy`, Corn=`Corn_(maize)___healthy`, Grape=`Grape___healthy`, Peach=`Peach___healthy`,
   Tomato=`Tomato___healthy`; unknown: Potato=`Potato___healthy`, Bell pepper=`Pepper,_bell___healthy`. Labels: Apple 0, Corn 1, Grape 2, Peach 3, Tomato 4.
 - Healthy leaves only (target = species, not disease). 13 exact duplicates (SHA-256) removed from Apple/Tomato before sampling; 0 corrupt files.
-- 250 images/known species (seeded sample) split 70/15/15 stratified at **image level** (no leaf IDs exist; see caveat above) → 875 train / 187 val / 188 test; 150 images each of Potato and Bell pepper, evaluation only.
+- 250 images/known species (seeded sample) split 70/15/15 stratified at **image level** (shares physical leaves across splits; see caveat above) → 875 train / 187 val / 188 test; 150 images each of Potato and Bell pepper, evaluation only.
 - All images are 256×256 RGB. Unknown species never enter training (asserted in code, tested).
 - Threshold = 5th percentile of max-probability on known **validation** images, frozen before test metrics are computed.
 
@@ -108,11 +115,12 @@ Rejection is a confidence-based safeguard, not proof that a plant is botanically
 ```
 configs/experiment.json   all settings and seed        src/    data, preprocessing, eda, open_set, train_*, evaluate, predict, stress_test,
 data/metadata.csv         split manifest (committed)          bootstrap_ci, grouped_split, leakage_audit, verify_data, paths
-data/metadata_blockwise.csv  sensitivity split               tests/  pytest suite (21 tests)
+data/metadata_blockwise.csv  frame-block heuristic split      tests/  pytest suite (30 tests)
+data/metadata_leafmap.csv    hybrid leaf-ID split             data/leaf_maps/  authors' leaf sheets + PROVENANCE.json
 artifacts/{metrics,figures,logs,predictions}                  reports/ final_audit, experiment report, limitations, presentation outline
-artifacts/variant_blockwise/  sensitivity results              notebooks/ analysis notebook
+artifacts/variant_{blockwise,leafmap}/  sensitivity results   notebooks/ analysis notebook
 app.py                    Streamlit demo
 ```
 
 ## What was tested
-Tested: unit tests (21), independent metric recomputation, notebook execution, CLI on known/unknown/corrupt inputs, the Streamlit upload workflow via Streamlit's `AppTest`. **Not tested:** a real browser session (manual steps are in `reports/final_audit.md` §5), CUDA/CPU, multiple seeds, field photographs.
+Tested: unit tests (30), independent metric recomputation, notebook execution, CLI on known/unknown/corrupt inputs, the Streamlit upload workflow via Streamlit's `AppTest`. **Not tested:** a real browser session (manual steps are in `reports/final_audit.md` §5), CUDA/CPU, multiple seeds, field photographs.

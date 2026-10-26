@@ -1,4 +1,5 @@
-"""Dataset discovery, integrity checks, deduplication and leakage-free splits."""
+"""Dataset discovery, integrity checks, exact-duplicate removal and the primary stratified IMAGE-LEVEL split.
+Note: this split does not group photographs of the same physical leaf (see src/leafmap.py, src/leafmap_audit.py)."""
 import argparse
 import hashlib
 import json

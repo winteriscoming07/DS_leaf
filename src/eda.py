@@ -53,7 +53,7 @@ def main():
     rep["near_duplicates_ahash8x8"] = nd
     rep["near_duplicate_note"] = ("8x8 average hash is coarse; flagged same-species cross-split pairs were visually "
                                   "inspected and are different leaves with similar shape/background (false positives). "
-                                  "Multiple photos of one physical leaf cannot be ruled out: PlantVillage has no leaf IDs.")
+                                  "Authoritative leaf IDs exist for Apple, Peach, Tomato (RS_HL only), Potato and Bell pepper (see leafmap_audit.json) and show many same-leaf photos across splits; Corn, Grape and Tomato GH_HL have no leaf IDs upstream.")
     build = json.load(open("artifacts/metrics/data_build_log.json"))
     rep["corrupt_files"] = len(build["corrupt"])
     rep["exact_duplicates_removed"] = len(build["exact_duplicates_removed"])

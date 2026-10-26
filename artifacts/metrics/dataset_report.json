@@ -66,7 +66,7 @@
       "cross_species": 60
     }
   },
-  "near_duplicate_note": "8x8 average hash is coarse; flagged same-species cross-split pairs were visually inspected and are different leaves with similar shape/background (false positives). Multiple photos of one physical leaf cannot be ruled out: PlantVillage has no leaf IDs.",
+  "near_duplicate_note": "8x8 average hash is coarse; flagged same-species cross-split pairs were visually inspected and are different leaves with similar shape/background (false positives). Authoritative leaf IDs exist for Apple, Peach, Tomato (RS_HL only), Potato and Bell pepper (see leafmap_audit.json) and show many same-leaf photos across splits; Corn, Grape and Tomato GH_HL have no leaf IDs upstream.",
   "corrupt_files": 0,
   "exact_duplicates_removed": 13,
   "class_to_label": {

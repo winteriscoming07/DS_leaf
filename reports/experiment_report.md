@@ -1,6 +1,6 @@
 # Experiment report — Can the model admit it doesn't know?
 
-All numbers are from `artifacts/metrics/*.json` produced by the code in this repository (seed 42, single run). They were independently recomputed during the final audit (`final_audit.md`); the sensitivity split in §9 is a separate retrained experiment and does not replace them.
+All numbers are from `artifacts/metrics/*.json` produced by the code in this repository (seed 42, single run). They were independently recomputed during the final audit (`final_audit.md`) and are reported as-is; §9 shows that the primary split shares physical leaves across train and test, so read them as optimistic and see the leaf-aware sensitivity splits beside them.
 
 ## 1. Design
 - Data: PlantVillage `raw/color` (upstream commit `7f7ecc7e`, files verified byte-identical), healthy leaves. Known = Apple, Corn, Grape, Peach, Tomato (250 each, after removing 13 exact duplicates and sampling with seed 42). Unknown = Potato, Bell pepper (150 each, evaluation only). 256×256 RGB, no corrupt files.
@@ -59,16 +59,23 @@ At heavy blur HOG+SVM is at chance level (0.207) yet still accepts 85% of images
 On PlantVillage, a pretrained MobileNetV3-Small with max-probability rejection separates unseen from known species far better than HOG+SVM (AUROC 0.95 vs 0.78), but a fixed 95%-validation-acceptance threshold still lets 27% of unseen-species images through — the model cannot reliably "admit it doesn't know", especially for Potato, a close relative of Tomato. See `limitations.md` for what this does not establish.
 
 ## 8. Checks performed
-Unknown species excluded from training (asserted in both training scripts; split tests); threshold computed from validation confidences only; all metrics recomputed independently from saved probabilities; 21 pytest tests pass (data, splits, frame-block guard, preprocessing, threshold, boundary acceptance, metrics incl. AUROC direction, risk–coverage, inference format, upload decoding, Streamlit `AppTest` upload workflow); notebook executes end to end. Not done: multiple seeds, fine-tuning, alternative OOD scores, CUDA/CPU runs, real-browser testing of the Streamlit app.
+Unknown species excluded from training (asserted in both training scripts; split tests); threshold computed from validation confidences only; all metrics recomputed independently from saved probabilities; 30 pytest tests pass (adding leaf-ID mapping, ambiguity/missing handling, group separation, reproducibility) (data, splits, frame-block guard, preprocessing, threshold, boundary acceptance, metrics incl. AUROC direction, risk–coverage, inference format, upload decoding, Streamlit `AppTest` upload workflow); notebook executes end to end. Not done: multiple seeds, fine-tuning, alternative OOD scores, CUDA/CPU runs, real-browser testing of the Streamlit app.
 
-## 9. Sensitivity to possible same-leaf overlap (`artifacts/variant_blockwise/`, `artifacts/metrics/split_sensitivity.md`)
-PlantVillage has no physical-leaf IDs, so the image-level split may place different photographs of one leaf in train and test. A true specimen-level split is impossible. As a robustness check, the same 1,250 known images were re-split so that frames within a 50-frame block (and Tomato leaf numbers) stay together, and any image within 5 frames of an image in another split was dropped (39 images). Both models were retrained and fully re-evaluated (threshold again from validation only).
+## 9. Same-leaf overlap and sensitivity splits (`reports/final_audit.md` §2; `artifacts/metrics/leafmap_audit.md`, `split_sensitivity.md`)
+The dataset authors' leaf-count sheets (upstream commit `7f7ecc7e`, preserved in `data/leaf_maps/`) were matched to the 1,550 selected images by file name, within each species' own sheet. Authoritative leaf IDs cover Apple 250/250, Peach 250/250, Tomato 150/250 (the `RS_HL` files), Potato 150/150 and Bell pepper 150/150; **Corn 0/250 and Grape 0/250 have no upstream mapping**, and no ID was invented. No match was ambiguous.
 
-| | HOG+SVM primary → frame-block | MobileNet primary → frame-block |
+**The primary image-level split shares physical leaves across train/val/test**: 41 of 161 Apple leaves, 42 of 56 Peach leaves and 16 of 122 Tomato leaves cross; every one of the 38 Peach test images has a training photo of the same leaf (Apple 24/38, mapped Tomato 9/25). A fully group-aware split is therefore **not possible** across all known classes. Two retrained sensitivity experiments were run, each in its own directory with every dependent metric and figure regenerated and the primary outputs untouched:
+
+| | HOG+SVM: primary → frame-block → hybrid | MobileNet: primary → frame-block → hybrid |
 |---|---|---|
-| Known accuracy | 0.989 → 0.957 | 1.000 → 1.000 |
-| Unknown rejected | 0.130 → 0.193 | 0.730 → 0.660 |
-| Potato / Bell pepper rejected | 0.107 / 0.153 → 0.147 / 0.240 | 0.607 / 0.853 → 0.407 / 0.913 |
-| AUROC | 0.775 → 0.748 | 0.948 → 0.919 (CIs 0.928–0.966 vs 0.894–0.942) |
+| Known accuracy | 0.989 → 0.957 → 0.957 | 1.000 → 1.000 → 0.995 |
+| Known false rejection | 0.016 → 0.064 → 0.022 | 0.053 → 0.053 → 0.113 |
+| Unknown rejected | 0.130 → 0.193 → 0.123 | 0.730 → 0.660 → 0.733 |
+| Potato / Bell pepper rejected | 0.107/0.153 → 0.147/0.240 → 0.100/0.147 | 0.607/0.853 → 0.407/0.913 → 0.553/0.913 |
+| AUROC (leaf-clustered 95% CI in hybrid) | 0.775 → 0.748 → 0.799 (0.752–0.844) | 0.948 → 0.919 → 0.898 (0.859–0.934) |
 
-*Evidence:* the conclusions (MobileNet ≫ HOG+SVM at ranking unknowns; a sizeable share of unknowns still accepted; Potato hardest) hold under the stricter split. *Not established:* that the changes are due to leakage; test/validation images, thresholds and training sets all differ, only one seed was run, and most intervals overlap (the Potato drop 0.607 → 0.407 is the largest change). The block split is itself a heuristic (frame adjacency ≠ same leaf), so it cannot certify specimen independence. Treat primary numbers as possibly mildly optimistic.
+*frame-block* = heuristic split by camera-frame blocks for all classes; *hybrid* = whole authoritative leaves for Apple, Peach and Tomato-RS (zero leaf crossings), frame-block heuristic for Corn, Grape and Tomato-GH (600 of 1,250 known images). The hybrid split is not fully specimen-independent.
+
+*Evidence:* leaf sharing in the primary split is real and large for Peach, Apple and mapped Tomato; the qualitative conclusions (MobileNet ≫ HOG+SVM at ranking unknowns; a quarter to a third of unknowns still accepted; Potato hardest) hold in all three splits. *Mixed:* the hybrid split lowers MobileNet AUROC and doubles its known false rejection, and lowers HOG+SVM Peach recall, but does not change unknown rejection and does not lower HOG+SVM AUROC. *Hypothesis, not established:* that same-leaf overlap inflated the primary known-class confidence; the test, validation and training images and thresholds all change between splits and one seed was run, so a lower score alone is not proof of leakage. Treat the primary numbers as optimistic by an unknown amount.
+
+*Independence of the unknown pool:* the 300 unknown images are 38 Potato leaves (4 photos each) and 93 Bell pepper leaves. A leaf-clustered bootstrap changes the primary MobileNet unknown-rejection interval from 0.680–0.783 (image bootstrap) to 0.668–0.789; intervals for Corn, Grape and Tomato-GH cannot be clustered.
