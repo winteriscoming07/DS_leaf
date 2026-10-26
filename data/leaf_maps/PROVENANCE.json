@@ -1,0 +1,61 @@
+{
+  "upstream": "https://github.com/spMohanty/PlantVillage-Dataset",
+  "commit": "7f7ecc7e1eaca78107e3affe7cb5abd9427e139a",
+  "license_note": "plant_village.py at this commit declares CC BY-SA 3.0; files are unmodified copies",
+  "source_dir": "leaf_grouping/leaf_maps/",
+  "columns": [
+    "File Name",
+    "Leaf #"
+  ],
+  "species_without_map": {
+    "Corn": "no Corn map exists anywhere in leaf_grouping/ or leaf-map.json at this commit",
+    "Grape": "leaf_maps has only the three Grape disease sheets; there is no Grape healthy sheet (checked the original Excel workbook too)"
+  },
+  "files": {
+    "Apple_Healthy.csv": {
+      "species": "Apple",
+      "upstream_path": "leaf_grouping/leaf_maps/Apple_Healthy.csv",
+      "git_blob_sha": "5a675a32bfeb362955921a529efa98d7c5578eb2",
+      "sha256": "10cd8785e21e26b6d8d01fd8b12180d588156748035abf9422690105f90c9f42",
+      "rows": 1639,
+      "distinct_leaf_numbers": 257,
+      "identical_to_filtered_leafmaps": true
+    },
+    "Peach_Healthy.csv": {
+      "species": "Peach",
+      "upstream_path": "leaf_grouping/leaf_maps/Peach_Healthy.csv",
+      "git_blob_sha": "d313aca845d51a9d8eeca5929f63e370f9877251",
+      "sha256": "afb4df48905f850f3fe31464f700d44048a64df3c0254ff47e651c1edf335627",
+      "rows": 361,
+      "distinct_leaf_numbers": 57,
+      "identical_to_filtered_leafmaps": true
+    },
+    "Tomato_Healthy.csv": {
+      "species": "Tomato",
+      "upstream_path": "leaf_grouping/leaf_maps/Tomato_Healthy.csv",
+      "git_blob_sha": "d5b935c5bd8fa55839fb6a9905ba825fac85e73e",
+      "sha256": "e28d9b7f4713d8fa0140741ac8cd23d2d3016f34246a527fec8b90d97a7e410c",
+      "rows": 1000,
+      "distinct_leaf_numbers": 250,
+      "identical_to_filtered_leafmaps": true
+    },
+    "Pepper_Healthy.csv": {
+      "species": "Bell pepper",
+      "upstream_path": "leaf_grouping/leaf_maps/Pepper_Healthy.csv",
+      "git_blob_sha": "f6d3381fdc9cfc8d2eee6fc470035cf5382a5314",
+      "sha256": "1d17dd7bce199cfa74e20c355feb7cc66441f9552962d54237b14068020e2a9b",
+      "rows": 1476,
+      "distinct_leaf_numbers": 165,
+      "identical_to_filtered_leafmaps": true
+    },
+    "Potato_Healthy Potato.csv": {
+      "species": "Potato",
+      "upstream_path": "leaf_grouping/leaf_maps/Potato_Healthy Potato.csv",
+      "git_blob_sha": "d97923889d757dc353f77f3d0ca9d453c587e24d",
+      "sha256": "9409fa87a9378a044f9aea55c62078738c5748aa2db66f95afb7fde5a619ef36",
+      "rows": 152,
+      "distinct_leaf_numbers": 38,
+      "identical_to_filtered_leafmaps": true
+    }
+  }
+}
