@@ -5,6 +5,7 @@ scikit-learn==1.9.1
 scikit-image==0.26.0
 matplotlib==3.11.2
 pillow==13.0.0
+scipy==1.17.1
 torch==2.14.1
 torchvision==0.29.1
 pytest==9.1.1
