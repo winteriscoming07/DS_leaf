@@ -9,3 +9,4 @@ data/processed/
 artifacts/checkpoints/
 *.pth
 *.pt
+artifacts/variant_*/checkpoints/
