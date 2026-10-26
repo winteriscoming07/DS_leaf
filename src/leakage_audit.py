@@ -1,6 +1,7 @@
-"""Leakage audit: what specimen-level information exists, how close are test frames to train frames, and how do the results
-change under the frame-block sensitivity split? Writes artifacts/metrics/leakage_audit.json, split_sensitivity.md and
-artifacts/figures/frame_neighbours.png. Requires the primary and the LEAF_VARIANT=blockwise pipeline outputs."""
+"""Leakage audit: how close are test frames to train frames, and how do the results change under the frame-block heuristic split
+and the hybrid leaf-map split (authoritative leaf IDs where they exist, see src/leafmap.py)? Writes artifacts/metrics/leakage_audit.json,
+split_sensitivity.md/.csv and artifacts/figures/frame_neighbours.png. Requires the primary, LEAF_VARIANT=blockwise and
+LEAF_VARIANT=leafmap pipeline outputs. Authoritative leaf coverage and crossings: src/leafmap_audit.py."""
 import json
 
 import matplotlib
@@ -55,10 +56,12 @@ def to_md(df):
     return "\n".join([line(cells[0]), line(["---"] * len(cells[0]))] + [line(r) for r in cells[1:]]) + "\n"
 
 
-def sensitivity_table(a, b, ca, cb):
+def sensitivity_table(variants):
+    """variants: [(label, results_json, bootstrap_json), ...]"""
     rows = []
     for k, name in (("hog_svm", "HOG + SVM"), ("mobilenet", "MobileNetV3-Small")):
-        for tag, r, ci in (("primary (image-level)", a[k], ca[k]), ("frame-block + guard", b[k], cb[k])):
+        for tag, res, cis in variants:
+            r, ci = res[k], cis[k]
             kt = r["known_test"]
             rows.append({"Model": name, "Split": tag, "Known test n": kt["n"], "Known acc": kt["accuracy"], "Threshold": r["threshold"],
                          "Unknown rejected": r["unknown"]["rejection_rate"],
@@ -72,17 +75,17 @@ def main():
     leaf = parsed(prim[prim.role == "known"]); leaf = leaf[leaf.ns == "leaf"]
     span = leaf.groupby("num").split.nunique()
     rep = {"known_images": int((prim.role == "known").sum()),
-           "images_with_explicit_leaf_number": int(len(leaf)), "distinct_leaf_numbers": int(leaf.num.nunique()),
-           "leaf_numbers_spanning_multiple_splits_in_primary": int((span > 1).sum()),
-           "images_whose_leaf_number_appears_in_another_split": int(leaf.num.isin(span[span > 1].index).sum()),
+           "tomato_GH_filename_leaf_numbers_UNVERIFIED": {"images": int(len(leaf)), "distinct_numbers": int(leaf.num.nunique()),
+                                                           "numbers_spanning_multiple_splits_in_primary": int((span > 1).sum()),
+                                                           "images_whose_number_appears_in_another_split": int(leaf.num.isin(span[span > 1].index).sum())},
            "frame_proximity_primary": proximity(prim),
            "blockwise_split_counts": blk.groupby(["species", "split"]).size().unstack(fill_value=0).to_dict("index"),
-           "note": "Frame numbers are camera sequence numbers; adjacency does NOT prove the same physical leaf. Leaf numbers exist for Tomato 'GH_HL Leaf' files only."}
+           "note": "Frame numbers are camera sequence numbers; adjacency alone does not prove the same physical leaf. Authoritative leaf IDs (authors' sheets) exist for Apple, Peach, Tomato RS_HL, Potato and Bell pepper only; see leafmap_audit.json. The 'GH_HL Leaf N' numbers in Tomato file names are not in any upstream sheet."}
     json.dump(rep, open(f"{MET}/leakage_audit.json", "w"), indent=2)
     montage(prim, f"{FIG}/frame_neighbours.png")
-    a, b = (json.load(open(f"{p}/metrics/open_set_results.json")) for p in ("artifacts", "artifacts/variant_blockwise"))
-    ca, cb = (json.load(open(f"{p}/metrics/bootstrap_ci.json")) for p in ("artifacts", "artifacts/variant_blockwise"))
-    t = sensitivity_table(a, b, ca, cb)
+    dirs = (("primary (image-level)", "artifacts"), ("frame-block heuristic + guard", "artifacts/variant_blockwise"),
+            ("hybrid leaf-map (leaf IDs where available)", "artifacts/variant_leafmap"))
+    t = sensitivity_table([(lab, json.load(open(f"{d}/metrics/open_set_results.json")), json.load(open(f"{d}/metrics/bootstrap_ci.json"))) for lab, d in dirs])
     t.to_csv(f"{MET}/split_sensitivity.csv", index=False)
     open(f"{MET}/split_sensitivity.md", "w").write(to_md(t.round(3)))
     print(json.dumps({k: v for k, v in rep.items() if k not in ("frame_proximity_primary", "blockwise_split_counts")}, indent=1))

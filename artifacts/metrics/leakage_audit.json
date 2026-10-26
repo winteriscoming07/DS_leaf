@@ -1,9 +1,11 @@
 {
   "known_images": 1250,
-  "images_with_explicit_leaf_number": 100,
-  "distinct_leaf_numbers": 96,
-  "leaf_numbers_spanning_multiple_splits_in_primary": 1,
-  "images_whose_leaf_number_appears_in_another_split": 2,
+  "tomato_GH_filename_leaf_numbers_UNVERIFIED": {
+    "images": 100,
+    "distinct_numbers": 96,
+    "numbers_spanning_multiple_splits_in_primary": 1,
+    "images_whose_number_appears_in_another_split": 2
+  },
   "frame_proximity_primary": [
     {
       "species": "Apple",
@@ -137,5 +139,5 @@
       "val": 38
     }
   },
-  "note": "Frame numbers are camera sequence numbers; adjacency does NOT prove the same physical leaf. Leaf numbers exist for Tomato 'GH_HL Leaf' files only."
+  "note": "Frame numbers are camera sequence numbers; adjacency alone does not prove the same physical leaf. Authoritative leaf IDs (authors' sheets) exist for Apple, Peach, Tomato RS_HL, Potato and Bell pepper only; see leafmap_audit.json. The 'GH_HL Leaf N' numbers in Tomato file names are not in any upstream sheet."
 }

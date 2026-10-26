@@ -1,0 +1,291 @@
+{
+  "provenance_mismatches": [],
+  "coverage": [
+    {
+      "role": "known",
+      "species": "Apple",
+      "images": 250.0,
+      "matched_authoritative_id": 250.0,
+      "pct_matched": 100.0,
+      "no_sheet_upstream": 0.0,
+      "not_in_sheet": 0.0,
+      "ambiguous": 0.0,
+      "distinct_leaves": 161.0
+    },
+    {
+      "role": "known",
+      "species": "Corn",
+      "images": 250.0,
+      "matched_authoritative_id": 0.0,
+      "pct_matched": 0.0,
+      "no_sheet_upstream": 250.0,
+      "not_in_sheet": 0.0,
+      "ambiguous": 0.0,
+      "distinct_leaves": 0.0
+    },
+    {
+      "role": "known",
+      "species": "Grape",
+      "images": 250.0,
+      "matched_authoritative_id": 0.0,
+      "pct_matched": 0.0,
+      "no_sheet_upstream": 250.0,
+      "not_in_sheet": 0.0,
+      "ambiguous": 0.0,
+      "distinct_leaves": 0.0
+    },
+    {
+      "role": "known",
+      "species": "Peach",
+      "images": 250.0,
+      "matched_authoritative_id": 250.0,
+      "pct_matched": 100.0,
+      "no_sheet_upstream": 0.0,
+      "not_in_sheet": 0.0,
+      "ambiguous": 0.0,
+      "distinct_leaves": 56.0
+    },
+    {
+      "role": "known",
+      "species": "Tomato",
+      "images": 250.0,
+      "matched_authoritative_id": 150.0,
+      "pct_matched": 60.0,
+      "no_sheet_upstream": 0.0,
+      "not_in_sheet": 100.0,
+      "ambiguous": 0.0,
+      "distinct_leaves": 122.0
+    },
+    {
+      "role": "unknown",
+      "species": "Bell pepper",
+      "images": 150.0,
+      "matched_authoritative_id": 150.0,
+      "pct_matched": 100.0,
+      "no_sheet_upstream": 0.0,
+      "not_in_sheet": 0.0,
+      "ambiguous": 0.0,
+      "distinct_leaves": 93.0
+    },
+    {
+      "role": "unknown",
+      "species": "Potato",
+      "images": 150.0,
+      "matched_authoritative_id": 150.0,
+      "pct_matched": 100.0,
+      "no_sheet_upstream": 0.0,
+      "not_in_sheet": 0.0,
+      "ambiguous": 0.0,
+      "distinct_leaves": 38.0
+    }
+  ],
+  "unknown_independence": {
+    "Bell pepper": {
+      "images": 150,
+      "distinct_leaves": 93,
+      "images_per_leaf_median": 1.0,
+      "images_per_leaf_max": 4,
+      "design_effect_note": "images from one leaf are correlated; effective sample size is between #leaves and #images"
+    },
+    "Potato": {
+      "images": 150,
+      "distinct_leaves": 38,
+      "images_per_leaf_median": 4.0,
+      "images_per_leaf_max": 4,
+      "design_effect_note": "images from one leaf are correlated; effective sample size is between #leaves and #images"
+    }
+  },
+  "crossings": {
+    "primary (image-level)": [
+      {
+        "species": "Apple",
+        "images": 250,
+        "leaves": 161,
+        "leaves_crossing": 41,
+        "images_in_crossing_leaves": 97,
+        "test_images": 38,
+        "test_images_sharing_leaf_with_train_or_val": 24
+      },
+      {
+        "species": "Peach",
+        "images": 250,
+        "leaves": 56,
+        "leaves_crossing": 42,
+        "images_in_crossing_leaves": 210,
+        "test_images": 38,
+        "test_images_sharing_leaf_with_train_or_val": 38
+      },
+      {
+        "species": "Tomato",
+        "images": 150,
+        "leaves": 122,
+        "leaves_crossing": 16,
+        "images_in_crossing_leaves": 37,
+        "test_images": 25,
+        "test_images_sharing_leaf_with_train_or_val": 9
+      }
+    ],
+    "frame-block heuristic": [
+      {
+        "species": "Apple",
+        "images": 243,
+        "leaves": 159,
+        "leaves_crossing": 1,
+        "images_in_crossing_leaves": 3,
+        "test_images": 35,
+        "test_images_sharing_leaf_with_train_or_val": 0
+      },
+      {
+        "species": "Peach",
+        "images": 242,
+        "leaves": 56,
+        "leaves_crossing": 0,
+        "images_in_crossing_leaves": 0,
+        "test_images": 34,
+        "test_images_sharing_leaf_with_train_or_val": 0
+      },
+      {
+        "species": "Tomato",
+        "images": 146,
+        "leaves": 119,
+        "leaves_crossing": 0,
+        "images_in_crossing_leaves": 0,
+        "test_images": 22,
+        "test_images_sharing_leaf_with_train_or_val": 0
+      }
+    ],
+    "hybrid leaf-map": [
+      {
+        "species": "Apple",
+        "images": 250,
+        "leaves": 161,
+        "leaves_crossing": 0,
+        "images_in_crossing_leaves": 0,
+        "test_images": 36,
+        "test_images_sharing_leaf_with_train_or_val": 0
+      },
+      {
+        "species": "Peach",
+        "images": 250,
+        "leaves": 56,
+        "leaves_crossing": 0,
+        "images_in_crossing_leaves": 0,
+        "test_images": 36,
+        "test_images_sharing_leaf_with_train_or_val": 0
+      },
+      {
+        "species": "Tomato",
+        "images": 150,
+        "leaves": 122,
+        "leaves_crossing": 0,
+        "images_in_crossing_leaves": 0,
+        "test_images": 22,
+        "test_images_sharing_leaf_with_train_or_val": 0
+      }
+    ]
+  },
+  "cluster_bootstrap": {
+    "primary (image-level)": {
+      "hog_svm": {
+        "known_accuracy": [
+          0.9732620320855615,
+          1.0
+        ],
+        "unknown_rejection": [
+          0.08794788273615635,
+          0.1756819319319319
+        ],
+        "auroc": [
+          0.7292502597528285,
+          0.8196343792190603
+        ],
+        "n_known_test_clusters": 177,
+        "n_unknown_clusters": 131
+      },
+      "mobilenet": {
+        "known_accuracy": [
+          1.0,
+          1.0
+        ],
+        "unknown_rejection": [
+          0.6677841524139424,
+          0.7893020594965675
+        ],
+        "auroc": [
+          0.9193672390718012,
+          0.9708187452054678
+        ],
+        "n_known_test_clusters": 177,
+        "n_unknown_clusters": 131
+      }
+    },
+    "frame-block heuristic": {
+      "hog_svm": {
+        "known_accuracy": [
+          0.9191919191919192,
+          0.9842125930008266
+        ],
+        "unknown_rejection": [
+          0.14233988452978683,
+          0.25082623244902885
+        ],
+        "auroc": [
+          0.6967844442958846,
+          0.7987081542470092
+        ],
+        "n_known_test_clusters": 143,
+        "n_unknown_clusters": 131
+      },
+      "mobilenet": {
+        "known_accuracy": [
+          1.0,
+          1.0
+        ],
+        "unknown_rejection": [
+          0.5904696373962429,
+          0.7345524252105721
+        ],
+        "auroc": [
+          0.8840586412406373,
+          0.9500758375787394
+        ],
+        "n_known_test_clusters": 143,
+        "n_unknown_clusters": 131
+      }
+    },
+    "hybrid leaf-map": {
+      "hog_svm": {
+        "known_accuracy": [
+          0.9255244581427718,
+          0.9839614633732281
+        ],
+        "unknown_rejection": [
+          0.08278088604704271,
+          0.1694915254237288
+        ],
+        "auroc": [
+          0.7518881159050105,
+          0.8436084310061002
+        ],
+        "n_known_test_clusters": 141,
+        "n_unknown_clusters": 131
+      },
+      "mobilenet": {
+        "known_accuracy": [
+          0.9825555895552835,
+          1.0
+        ],
+        "unknown_rejection": [
+          0.6676951476793249,
+          0.800017793594306
+        ],
+        "auroc": [
+          0.8586557444852538,
+          0.9338829181322562
+        ],
+        "n_known_test_clusters": 141,
+        "n_unknown_clusters": 131
+      }
+    }
+  }
+}
