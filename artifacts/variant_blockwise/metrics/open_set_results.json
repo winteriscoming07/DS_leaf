@@ -1,0 +1,204 @@
+{
+  "hog_svm": {
+    "threshold": 0.6136436479241721,
+    "known_test": {
+      "n": 188,
+      "accuracy": 0.9574468085106383,
+      "macro_f1": 0.9573113469146299,
+      "coverage": 0.9361702127659575,
+      "false_rejection_rate": 0.06382978723404253,
+      "accuracy_on_accepted": 0.9886363636363636
+    },
+    "unknown": {
+      "n": 300,
+      "rejection_rate": 0.19333333333333336,
+      "false_acceptance_rate": 0.8066666666666666
+    },
+    "auroc_unknown_positive": 0.7476418439716312,
+    "auroc_per_unknown_species": {
+      "Potato": 0.689468085106383,
+      "Bell pepper": 0.8058156028368794
+    },
+    "unknown_rejection_per_species": {
+      "Potato": 0.1466666666666666,
+      "Bell pepper": 0.24
+    },
+    "combined": {
+      "coverage": 0.8565573770491803,
+      "risk": 0.583732057416268,
+      "n_known": 188,
+      "n_unknown": 300
+    },
+    "val_acceptance_at_threshold": 0.9467455621301775,
+    "per_class": {
+      "Apple": {
+        "precision": 0.8717948717948718,
+        "recall": 0.9714285714285714,
+        "f1": 0.918918918918919,
+        "support": 35
+      },
+      "Corn": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 37
+      },
+      "Grape": {
+        "precision": 1.0,
+        "recall": 0.9111111111111111,
+        "f1": 0.9534883720930233,
+        "support": 45
+      },
+      "Peach": {
+        "precision": 0.9411764705882353,
+        "recall": 0.9411764705882353,
+        "f1": 0.9411764705882353,
+        "support": 34
+      },
+      "Tomato": {
+        "precision": 0.972972972972973,
+        "recall": 0.972972972972973,
+        "f1": 0.972972972972973,
+        "support": 37
+      }
+    },
+    "confusion_matrix": [
+      [
+        34,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        37,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        41,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        32,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        36
+      ]
+    ]
+  },
+  "mobilenet": {
+    "threshold": 0.9970586895942688,
+    "known_test": {
+      "n": 188,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "coverage": 0.9468085106382979,
+      "false_rejection_rate": 0.05319148936170215,
+      "accuracy_on_accepted": 1.0
+    },
+    "unknown": {
+      "n": 300,
+      "rejection_rate": 0.6599999999999999,
+      "false_acceptance_rate": 0.34
+    },
+    "auroc_unknown_positive": 0.9191312056737588,
+    "auroc_per_unknown_species": {
+      "Potato": 0.8604255319148937,
+      "Bell pepper": 0.9778368794326241
+    },
+    "unknown_rejection_per_species": {
+      "Potato": 0.4066666666666666,
+      "Bell pepper": 0.9133333333333333
+    },
+    "combined": {
+      "coverage": 0.5737704918032787,
+      "risk": 0.36428571428571427,
+      "n_known": 188,
+      "n_unknown": 300
+    },
+    "val_acceptance_at_threshold": 0.9467455621301775,
+    "per_class": {
+      "Apple": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 35
+      },
+      "Corn": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 37
+      },
+      "Grape": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 45
+      },
+      "Peach": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 34
+      },
+      "Tomato": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 37
+      }
+    },
+    "confusion_matrix": [
+      [
+        35,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        37,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        45,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        34,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        37
+      ]
+    ]
+  }
+}

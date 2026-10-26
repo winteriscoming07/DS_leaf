@@ -1,0 +1,141 @@
+{
+  "known_images": 1250,
+  "images_with_explicit_leaf_number": 100,
+  "distinct_leaf_numbers": 96,
+  "leaf_numbers_spanning_multiple_splits_in_primary": 1,
+  "images_whose_leaf_number_appears_in_another_split": 2,
+  "frame_proximity_primary": [
+    {
+      "species": "Apple",
+      "split": "val",
+      "n": 37,
+      "within_1": 8,
+      "within_5": 27,
+      "median_gap": 3.0
+    },
+    {
+      "species": "Apple",
+      "split": "test",
+      "n": 38,
+      "within_1": 5,
+      "within_5": 26,
+      "median_gap": 3.0
+    },
+    {
+      "species": "Corn",
+      "split": "val",
+      "n": 38,
+      "within_1": 20,
+      "within_5": 38,
+      "median_gap": 1.0
+    },
+    {
+      "species": "Corn",
+      "split": "test",
+      "n": 37,
+      "within_1": 20,
+      "within_5": 37,
+      "median_gap": 1.0
+    },
+    {
+      "species": "Grape",
+      "split": "val",
+      "n": 37,
+      "within_1": 28,
+      "within_5": 37,
+      "median_gap": 1.0
+    },
+    {
+      "species": "Grape",
+      "split": "test",
+      "n": 38,
+      "within_1": 20,
+      "within_5": 38,
+      "median_gap": 1.0
+    },
+    {
+      "species": "Peach",
+      "split": "val",
+      "n": 37,
+      "within_1": 28,
+      "within_5": 37,
+      "median_gap": 1.0
+    },
+    {
+      "species": "Peach",
+      "split": "test",
+      "n": 38,
+      "within_1": 27,
+      "within_5": 38,
+      "median_gap": 1.0
+    },
+    {
+      "species": "Tomato",
+      "split": "val",
+      "n": 23,
+      "within_1": 4,
+      "within_5": 17,
+      "median_gap": 4.0
+    },
+    {
+      "species": "Tomato",
+      "split": "test",
+      "n": 25,
+      "within_1": 4,
+      "within_5": 16,
+      "median_gap": 3.0
+    }
+  ],
+  "blockwise_split_counts": {
+    "Apple": {
+      "guard_excluded": 7,
+      "test": 35,
+      "train": 166,
+      "unknown_test": 0,
+      "val": 42
+    },
+    "Bell pepper": {
+      "guard_excluded": 0,
+      "test": 0,
+      "train": 0,
+      "unknown_test": 150,
+      "val": 0
+    },
+    "Corn": {
+      "guard_excluded": 10,
+      "test": 37,
+      "train": 175,
+      "unknown_test": 0,
+      "val": 28
+    },
+    "Grape": {
+      "guard_excluded": 10,
+      "test": 45,
+      "train": 168,
+      "unknown_test": 0,
+      "val": 27
+    },
+    "Peach": {
+      "guard_excluded": 8,
+      "test": 34,
+      "train": 174,
+      "unknown_test": 0,
+      "val": 34
+    },
+    "Potato": {
+      "guard_excluded": 0,
+      "test": 0,
+      "train": 0,
+      "unknown_test": 150,
+      "val": 0
+    },
+    "Tomato": {
+      "guard_excluded": 4,
+      "test": 37,
+      "train": 171,
+      "unknown_test": 0,
+      "val": 38
+    }
+  },
+  "note": "Frame numbers are camera sequence numbers; adjacency does NOT prove the same physical leaf. Leaf numbers exist for Tomato 'GH_HL Leaf' files only."
+}

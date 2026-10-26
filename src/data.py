@@ -9,6 +9,8 @@ import pandas as pd
 from PIL import Image
 from sklearn.model_selection import train_test_split
 
+from src.paths import META
+
 IMG_EXT = {".jpg", ".jpeg", ".png"}
 
 
@@ -99,8 +101,8 @@ def build_metadata(cfg):
     return df, log
 
 
-def load_metadata(path="data/metadata.csv"):
-    return pd.read_csv(path)
+def load_metadata(path=None):
+    return pd.read_csv(META if path is None else path)
 
 
 def main():

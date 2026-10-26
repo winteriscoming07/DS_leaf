@@ -11,17 +11,18 @@ from PIL import Image
 from sklearn.metrics import confusion_matrix, precision_recall_fscore_support
 
 from src.data import load_config, load_metadata
+from src.paths import ART
 from src.open_set import (auroc_unknown_vs_known, combined_correctness, combined_risk_at_threshold, known_metrics,
                           max_confidence, risk_coverage, select_threshold, unknown_metrics)
 
 MODELS = {"hog_svm": "HOG + SVM", "mobilenet": "MobileNetV3-Small"}
 COLORS = {"hog_svm": "#c0762b", "mobilenet": "#2b6cc0"}
-FIG, MET = Path("artifacts/figures"), Path("artifacts/metrics")
+FIG, MET = ART / "figures", ART / "metrics"
 
 
 def evaluate_model(key, df, cfg):
     classes = list(cfg["known"])
-    P = np.load(f"artifacts/predictions/{key}.npz")
+    P = np.load(ART / f"predictions/{key}.npz")
     val, te, unk = df[df.split == "val"], df[df.split == "test"], df[df.split == "unknown_test"]
     thr = select_threshold(max_confidence(P["val_probs"]), cfg["threshold_percentile"])  # frozen here, before any test metric
     km = known_metrics(P["test_probs"], te.label.values, thr)
@@ -100,7 +101,7 @@ def fig_risk_coverage(results, probs, df):
 
 
 def fig_curves():
-    h = pd.DataFrame(json.load(open("artifacts/logs/mobilenet_train.json"))["history"])
+    h = pd.DataFrame(json.load(open(ART / "logs/mobilenet_train.json"))["history"])
     fig, ax = plt.subplots(1, 2, figsize=(9, 3.5))
     ax[0].plot(h.epoch, h.train_loss, label="train"); ax[0].plot(h.epoch, h.val_loss, label="validation"); ax[0].set_title("Loss")
     ax[1].plot(h.epoch, h.train_acc, label="train"); ax[1].plot(h.epoch, h.val_acc, label="validation"); ax[1].set_title("Accuracy")

@@ -2,7 +2,6 @@
 import json
 import platform
 import time
-from pathlib import Path
 
 import numpy as np
 import torch
@@ -12,6 +11,7 @@ from torch.utils.data import DataLoader, Dataset
 from torchvision.models import MobileNet_V3_Small_Weights, mobilenet_v3_small
 
 from src.data import load_config, load_metadata
+from src.paths import ART, ensure
 from src.preprocessing import eval_transform, load_rgb, train_transform
 
 
@@ -87,7 +87,8 @@ def main():
     loss_fn = nn.CrossEntropyLoss()
 
     hist, best, bad, t0 = [], float("inf"), 0, time.time()
-    Path("artifacts/checkpoints").mkdir(parents=True, exist_ok=True)
+    ensure("checkpoints", "predictions", "logs")
+    ckpt = ART / "checkpoints/mobilenet_v3_small.pth"
     for ep in range(1, mc["epochs"] + 1):
         trl, tra = run_epoch(model, tr_loader, device, loss_fn, opt)
         vll, vla = run_epoch(model, va_loader, device, loss_fn)
@@ -96,14 +97,14 @@ def main():
         if vll < best:
             best, bad = vll, 0
             torch.save({"state_dict": model.state_dict(), "classes": classes, "image_size": sz, "epoch": ep},
-                       "artifacts/checkpoints/mobilenet_v3_small.pth")
+                       ckpt)
         else:
             bad += 1
             if bad >= mc["patience"]:
                 print("early stopping"); break
     train_s = time.time() - t0
 
-    ck = torch.load("artifacts/checkpoints/mobilenet_v3_small.pth", map_location=device)
+    ck = torch.load(ckpt, map_location=device)
     model.load_state_dict(ck["state_dict"])
     out, timing = {}, {}
     for name, split in (("val", "val"), ("test", "test"), ("unknown", "unknown_test")):
@@ -112,13 +113,13 @@ def main():
         t = time.time()
         out[f"{name}_probs"] = predict_probs(model, dl, device)
         timing[name] = (time.time() - t) / len(sub)  # excludes image decode (preloaded)
-    np.savez("artifacts/predictions/mobilenet.npz", **out)
+    np.savez(ART / "predictions/mobilenet.npz", **out)
     info = {"model": "MobileNetV3-Small", "weights": "IMAGENET1K_V1 (pretrained, ImageNet)", "device": str(device),
             "frozen": "features (backbone); trained: classifier head", "best_epoch": ck["epoch"], "selection_metric": "val_loss",
             "best_val_loss": best, "train_seconds": round(train_s, 1), "config": mc, "image_size": sz, "seed": cfg["seed"],
             "inference_seconds_per_image_excl_decode": {k: round(v, 5) for k, v in timing.items()},
             "torch": torch.__version__, "torchvision": torchvision.__version__, "python": platform.python_version(), "history": hist}
-    json.dump(info, open("artifacts/logs/mobilenet_train.json", "w"), indent=2)
+    json.dump(info, open(ART / "logs/mobilenet_train.json", "w"), indent=2)
     print("best epoch", ck["epoch"], "device", device, "train s", round(train_s, 1))
 
 

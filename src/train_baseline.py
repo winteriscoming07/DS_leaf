@@ -1,7 +1,6 @@
 """Model A: HOG + RBF-SVM (probability estimates via Platt scaling). Fitted on known-train only."""
 import json
 import time
-from pathlib import Path
 
 import joblib
 import numpy as np
@@ -9,6 +8,7 @@ import sklearn
 from sklearn.svm import SVC
 
 from src.data import load_config, load_metadata
+from src.paths import ART, ensure
 from src.preprocessing import hog_features, load_rgb
 
 
@@ -35,16 +35,14 @@ def main():
         t = time.time()
         out[f"{name}_probs"] = svm.predict_proba(features(sub.path, sz))
         timing[name] = (time.time() - t) / len(sub)
-    Path("artifacts/predictions").mkdir(parents=True, exist_ok=True)
-    Path("artifacts/checkpoints").mkdir(parents=True, exist_ok=True)
-    np.savez("artifacts/predictions/hog_svm.npz", **out)
-    joblib.dump(svm, "artifacts/checkpoints/hog_svm.joblib")
+    ensure("predictions", "checkpoints", "logs")
+    np.savez(ART / "predictions/hog_svm.npz", **out)
+    joblib.dump(svm, ART / "checkpoints/hog_svm.joblib")
     info = {"model": "HOG+SVM", "n_train": int(len(tr)), "feature_dim": int(Xtr.shape[1]), "fit_seconds": round(fit_s, 1),
             "inference_seconds_per_image_incl_features": {k: round(v, 5) for k, v in timing.items()},
             "svm": cfg["svm"], "hog_image_size": sz, "train_accuracy": float(svm.score(Xtr, tr.label.values)),
             "sklearn": sklearn.__version__, "seed": cfg["seed"]}
-    Path("artifacts/logs").mkdir(exist_ok=True)
-    json.dump(info, open("artifacts/logs/hog_svm_train.json", "w"), indent=2)
+    json.dump(info, open(ART / "logs/hog_svm_train.json", "w"), indent=2)
     print(json.dumps(info, indent=1))
     va = df[df.split == "val"]
     print("val acc (for information):", float((out["val_probs"].argmax(1) == va.label.values).mean()))
