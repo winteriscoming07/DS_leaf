@@ -6,6 +6,7 @@ import json
 import joblib
 import numpy as np
 import torch
+from PIL import Image, ImageOps, UnidentifiedImageError
 
 from src.data import load_config
 from src.open_set import UNKNOWN_LABEL, decide
@@ -47,15 +48,43 @@ class LeafPredictor:
         return self.predict_images([load_rgb(p) for p in paths])
 
 
+MAX_UPLOAD_PIXELS = 50_000_000
+
+
+def open_upload(file_like):
+    """Decode an uploaded file to an RGB PIL image (EXIF orientation applied, alpha/palette flattened).
+    Raises ValueError with a user-readable message for non-images, empty or oversized files."""
+    try:
+        with Image.open(file_like) as im:
+            if im.width * im.height > MAX_UPLOAD_PIXELS:
+                raise ValueError("Image is too large (over 50 megapixels); please upload a smaller photo.")
+            im = ImageOps.exif_transpose(im)
+            if im.mode in ("RGBA", "LA", "P"):
+                im = im.convert("RGBA"); bg = Image.new("RGBA", im.size, (255, 255, 255, 255)); im = Image.alpha_composite(bg, im)
+            return im.convert("RGB")
+    except (UnidentifiedImageError, OSError) as e:
+        raise ValueError("This file could not be read as an image (JPG or PNG expected).") from e
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("images", nargs="+")
     ap.add_argument("--model", default="mobilenet", choices=["mobilenet", "hog_svm"])
     a = ap.parse_args()
     pr = LeafPredictor(a.model)
-    for path, r in zip(a.images, pr.predict_paths(a.images)):
+    failed = 0
+    for path in a.images:
+        try:
+            with open(path, "rb") as f:
+                img = open_upload(f)
+        except (OSError, ValueError) as e:
+            print(f"{path}: ERROR - {e}")
+            failed += 1
+            continue
+        r = pr.predict_images([img])[0]
         print(f"{path}: {r['outcome']}  (best guess: {r['predicted']}, confidence {r['confidence']:.3f}, threshold {r['threshold']:.3f})")
     print("Note: rejection is a confidence-based safeguard, not proof that the plant is botanically unknown.")
+    raise SystemExit(1 if failed else 0)
 
 
 if __name__ == "__main__":
