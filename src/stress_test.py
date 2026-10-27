@@ -5,7 +5,6 @@ import json
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-import numpy as np
 from PIL import ImageEnhance, ImageFilter
 
 from src.data import load_metadata

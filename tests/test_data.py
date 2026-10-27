@@ -3,7 +3,7 @@ import pandas as pd
 import pytest
 from PIL import Image
 
-from src.data import build_metadata, check_image, discover_images, stratified_split
+from src.data import build_metadata, check_image, discover_images
 
 
 def _make(tmp_path, folder, n, seed=0, dup=False):

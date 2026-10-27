@@ -1,6 +1,5 @@
 """Open-set evaluation of both models from saved probabilities. Threshold uses VALIDATION known images only."""
 import json
-from pathlib import Path
 
 import matplotlib
 matplotlib.use("Agg")
@@ -23,7 +22,7 @@ FIG, MET = ART / "figures", ART / "metrics"
 def evaluate_model(key, df, cfg):
     classes = list(cfg["known"])
     P = np.load(ART / f"predictions/{key}.npz")
-    val, te, unk = df[df.split == "val"], df[df.split == "test"], df[df.split == "unknown_test"]
+    te, unk = df[df.split == "test"], df[df.split == "unknown_test"]
     thr = select_threshold(max_confidence(P["val_probs"]), cfg["threshold_percentile"])  # frozen here, before any test metric
     km = known_metrics(P["test_probs"], te.label.values, thr)
     um = unknown_metrics(P["unknown_probs"], thr)

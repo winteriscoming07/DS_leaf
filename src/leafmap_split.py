@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 
 from src.data import load_config
-from src.grouped_split import blockwise_split, parse_name
+from src.grouped_split import blockwise_split
 from src.leafmap import annotate
 
 SPLITS = ("train", "val", "test")

@@ -1,5 +1,7 @@
 # Project plan — Open-set leaf classification with confidence-based rejection
 
+> Original plan, written before the experiments. It is kept for reference; what was actually done, including the later leakage audit and the two split-sensitivity experiments, is in [README.md](README.md) and `reports/`.
+
 ## Research question
 When a leaf image belongs to a plant species never seen in training, can the model recognise that it may not know the answer?
 - RQ1: classical (HOG + SVM) vs pretrained deep model (MobileNetV3-Small) on 5 known species.
@@ -21,7 +23,7 @@ When a leaf image belongs to a plant species never seen in training, can the mod
 6. Failure galleries; optional synthetic brightness/blur stress test.
 
 ## Deliverables
-README, config, src/, tests/, figures + metrics in `artifacts/`, reports (experiment report, limitations, presentation outline + viva notes), CLI inference; Streamlit app only if time permits.
+README, config, src/, tests/, figures + metrics in `artifacts/`, reports (experiment report, limitations, presentation outline + viva notes), CLI inference; Streamlit app (completed).
 
 ## Known limitations (anticipated)
 PlantVillage is lab-style, uniform-background imagery; small samples; softmax confidence is not calibrated; two unknown species only; single seed; results do not imply field generalisation.

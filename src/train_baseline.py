@@ -19,7 +19,6 @@ def features(paths, size):
 def main():
     cfg = load_config()
     df = load_metadata()
-    classes = list(cfg["known"])
     sz = cfg["image_size_hog"]
     tr = df[df.split == "train"]
     assert (tr.role == "known").all(), "unknown species must never be in training"

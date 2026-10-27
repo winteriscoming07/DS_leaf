@@ -5,7 +5,7 @@ import uuid
 import pandas as pd
 import pytest
 
-from src.leafmap import SHEETS, annotate, check_provenance, load_sheet, load_sheets, lookup, normalize_name
+from src.leafmap import annotate, check_provenance, load_sheet, load_sheets, lookup, normalize_name
 from src.leafmap_split import crossing_groups, leafmap_split
 
 UUID = "0055dd26-23a7-4415-ac61-e0b44ebfaf80"
