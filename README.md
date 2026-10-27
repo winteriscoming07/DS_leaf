@@ -1,3 +1,20 @@
+<div align="center">
+
+<h2>Indian Institute of Science Education and Research (IISER) Mohali</h2>
+
+<h3><i>IDC 409 &middot; Introduction to Data Science and Artificial Intelligence</i></h3>
+
+This project was carried out as part of the course IDC 409, Introduction to Data Science and Artificial Intelligence,
+at the Indian Institute of Science Education and Research Mohali.
+
+<h3>Contributors</h3>
+
+<b>Aayush Tomar</b> &nbsp;&middot;&nbsp; <b>Niket Maheshwari</b> &nbsp;&middot;&nbsp; <b>Samarth</b>
+
+</div>
+
+---
+
 # Can Your AI Admit It Doesn't Know?
 
 **Open-set leaf classification with confidence-based rejection on PlantVillage**
