@@ -10,3 +10,4 @@ artifacts/checkpoints/
 *.pth
 *.pt
 artifacts/variant_*/checkpoints/
+reports/presentation_outline.md

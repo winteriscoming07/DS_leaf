@@ -8,7 +8,7 @@ Scope: scientific validity first, then completeness. Existing work was preserved
 
 ## 2. Data leakage investigation
 
-> **Correction (2026-10-27).** The first version of this section said PlantVillage has no physical-leaf IDs and that a specimen-level split was impossible. That was wrong: I had inspected only file names and had not looked for grouping metadata upstream. The upstream repository contains the dataset authors' leaf-count sheets. This section was rewritten after inspecting them at the pinned commit.
+> **Correction (2026-10-27).** The first version of this section said PlantVillage has no physical-leaf IDs and that a specimen-level split was impossible. That was wrong: only file names had been inspected and the upstream repository had not been checked for grouping metadata. The upstream repository contains the dataset authors' leaf-count sheets. This section was rewritten after inspecting them at the pinned commit.
 
 **Question:** can different photographs of the same physical leaf occur in train and test?
 
@@ -39,7 +39,7 @@ Scope: scientific validity first, then completeness. Existing work was preserved
 
 So the primary split is **not** leaf-independent. Because the leaf counts are small (a leaf has a median of 4–8 photos), the effect on the known-class numbers is probably largest for Peach. Exact duplicates were removed earlier; hashing could never detect this.
 
-**Is a fully group-aware split feasible for every known class?** No: Corn and Grape have no authoritative IDs and 100 Tomato images are unmatched. I did not invent IDs (the number embedded in `GH_HL Leaf 259.1` is not in any sheet and is treated as unverified).
+**Is a fully group-aware split feasible for every known class?** No: Corn and Grape have no authoritative IDs and 100 Tomato images are unmatched. No IDs were invented (the number embedded in `GH_HL Leaf 259.1` is not in any sheet and is treated as unverified).
 
 **Does file numbering correspond to acquisition order?** Where it can be checked, yes. In the upstream sheets for Apple, Peach, Bell pepper, Potato and Tomato-RS, `Leaf #` never decreases as the frame number increases (0 violations in every prefix), and for Apple, Peach, Bell pepper and Tomato-RS, 99–100% of leaves occupy a contiguous run of frame numbers (up to 17 photos per leaf). That supports the frame-block heuristic for those classes. It is order within a sequence, not capture timestamps, and it **cannot be verified for Corn, Grape or Tomato-GH**.
 

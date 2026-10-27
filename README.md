@@ -197,7 +197,7 @@ data/metadata*.csv          primary, frame-block and hybrid split manifests
 data/leaf_maps/             authors' leaf sheets (unmodified) + PROVENANCE.json (commit, SHA-256)
 artifacts/{metrics,figures,logs,predictions}/   primary results
 artifacts/variant_{blockwise,leafmap}/          sensitivity results
-reports/                    experiment_report, limitations, final_audit, presentation_outline
+reports/                    experiment_report, limitations, final_audit
 ```
 
 ## Reports
@@ -207,7 +207,6 @@ reports/                    experiment_report, limitations, final_audit, present
 | [reports/experiment_report.md](reports/experiment_report.md) | full methodology and results |
 | [reports/limitations.md](reports/limitations.md) | assumptions and what was not tested |
 | [reports/final_audit.md](reports/final_audit.md) | leakage investigation, metric audit, leaf-map coverage |
-| [reports/presentation_outline.md](reports/presentation_outline.md) | slides, speaker notes, viva Q&A |
 | [notebooks/leaf_open_set_analysis.ipynb](notebooks/leaf_open_set_analysis.ipynb) | reproducible analysis |
 | [PROJECT_PLAN.md](PROJECT_PLAN.md) | original plan |
 

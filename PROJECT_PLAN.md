@@ -23,7 +23,7 @@ When a leaf image belongs to a plant species never seen in training, can the mod
 6. Failure galleries; optional synthetic brightness/blur stress test.
 
 ## Deliverables
-README, config, src/, tests/, figures + metrics in `artifacts/`, reports (experiment report, limitations, presentation outline + viva notes), CLI inference; Streamlit app (completed).
+README, config, src/, tests/, figures + metrics in `artifacts/`, reports (experiment report, limitations, final audit), CLI inference; Streamlit app (completed).
 
 ## Known limitations (anticipated)
 PlantVillage is lab-style, uniform-background imagery; small samples; softmax confidence is not calibrated; two unknown species only; single seed; results do not imply field generalisation.
