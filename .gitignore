@@ -4,7 +4,6 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 .DS_Store
-data/raw/
 data/processed/
 artifacts/checkpoints/
 *.pth

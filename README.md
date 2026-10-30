@@ -149,9 +149,9 @@ uv pip install --python .venv/bin/python -r requirements.txt
 PY=.venv/bin/python
 ```
 
-**Raw images and trained weights are not in Git** (`data/raw/` and `*.pth` / checkpoints are ignored). Everything below that needs them says so.
+**Raw images are included in `data/raw/`** (PlantVillage `raw/color`, seven healthy-leaf folders). Trained weights are not in Git (`*.pth` / checkpoints are ignored); anything below that needs them says so.
 
-**1. Get and verify the data** (needed for training/evaluation). Download the seven `raw/color` folders listed below from
+**1. Get and verify the data** (already in the repo; only re-download if you need a fresh copy). Download the seven `raw/color` folders listed below from
 [spMohanty/PlantVillage-Dataset](https://github.com/spMohanty/PlantVillage-Dataset) at commit `7f7ecc7e1eaca78107e3affe7cb5abd9427e139a`
 into `data/raw/`, then check them against the committed manifest:
 
